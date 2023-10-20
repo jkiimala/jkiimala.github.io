@@ -7,7 +7,7 @@
 
 :root {
   --color-primary: #191d2b;
-  --color-secondary: #00b7ff;
+  --color-secondary: #2afafe;
   --color-white: #FFFFFF;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -23,7 +23,7 @@
 
 .light-mode {
   --color-primary: #191d2b;
-  --color-secondary: #00ff95;
+  --color-secondary: #f30dfb;
   --color-white: #ffffff;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -161,14 +161,14 @@ section {
 }
 .header-content .left-header .h-shape {
   transition: all 0.4s ease-in-out;
-  width: 65%;
+  width: 47%;
   height: 100%;
   background-color: var(--color-secondary);
   position: absolute;
   left: 0;
   top: 0;
   z-index: -1;
-  clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
+  clip-path: polygon(0 0, 36% 0, 99% 100%, 0% 100%);
 }
 .header-content .left-header .image {
   border-radius: var(--br-sm-2);
@@ -183,7 +183,7 @@ section {
   height: 100%;
   object-fit: cover;
   transition: all 0.4s ease-in-out;
-  filter: grayscale(100%);
+  filter: grayscale(0%);
 }
 .header-content .left-header .image img:hover {
   filter: grayscale(0);
