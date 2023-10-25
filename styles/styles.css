@@ -396,6 +396,18 @@ section {
   color: var(--color-grey-2);
 }
 
+.timeline .timeline-item {
+  position: relative;
+  border-radius: 10px;
+}
+
+.timeline .timeline-item img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
 .port-text {
   padding: 2rem 0;
   text-align: center;
