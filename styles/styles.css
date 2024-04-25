@@ -38,6 +38,8 @@
 body {
   background-color: var(--color-primary);
   font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
   font-size: 1rem;
   color: var(--color-white);
   transition: all 0.4s ease-in-out;
@@ -725,7 +727,7 @@ section {
   margin-top: 50px;
 }
 
-/* ANIMAATIO */
+/* ANIMAATIO 
 .roll-in-blurred-bottom {
 	-webkit-animation: roll-in-blurred-bottom 2.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
 	        animation: roll-in-blurred-bottom 2.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
@@ -760,7 +762,7 @@ section {
   }
 }
 
-
+*/
 
 
 @media screen and (max-width: 600px) {
