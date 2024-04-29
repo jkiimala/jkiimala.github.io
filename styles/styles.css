@@ -762,7 +762,7 @@ section {
 }
 
 .imagePhone {
-  margin-left: 0px;
+  margin-left: -10px;
   margin-top: 50px;
 }
 
@@ -1088,7 +1088,7 @@ section {
   .imagePhone {
     display: none;
   }
-  
+
   .main-title h2 {
     font-size: 4rem;
   }
@@ -1102,6 +1102,10 @@ section {
 @media screen and (max-width: 970px) {
   .container {
     padding: 7rem 6rem;
+  }
+
+  .imagePhone {
+    display: none;
   }
 
   .about-container .left-about {
