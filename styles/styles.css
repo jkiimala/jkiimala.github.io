@@ -391,18 +391,7 @@ html {
   background-color: #555; /* Add a dark-grey background on hover */
 }
 
-.google-map {
-  padding-bottom: 50%;
-  position: relative;
-}
 
-.google-map iframe {
-  height: 50%;
-  width: 50%;
-  left: 50%;
-  top: -50%;
-  position: absolute;
-}
 
 /* TAITOPROSENTIT */
 .about-stats .progress-bars .progress-bar .progress-con .progress .html {
