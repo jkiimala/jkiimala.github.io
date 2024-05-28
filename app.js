@@ -102,6 +102,5 @@ function dead() {
 const deadmenSound = document.getElementById('deadmenSound');
 deadmenSound.load();
 deadmenSound.play();
-
 }
 
