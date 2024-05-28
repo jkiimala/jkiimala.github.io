@@ -1,4 +1,4 @@
-// Get the button:
+// Get the button
 let mybutton = document.getElementById("myBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
@@ -93,3 +93,15 @@ window.onload = function() {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
     document.body.appendChild(css);
 };
+
+// deadmenSound
+deadmenSound.volume = 1;
+
+function dead() {
+
+const deadmenSound = document.getElementById('deadmenSound');
+deadmenSound.load();
+deadmenSound.play();
+
+}
+
