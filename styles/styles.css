@@ -70,6 +70,14 @@ section {
   padding: 3rem 18rem;
 }
 
+#man {
+  position: fixed;
+  bottom: 0%;
+  left: 0%;
+  
+  
+}
+
 .container {
   display: none;
   transform: translateY(-100%) scale(0);
