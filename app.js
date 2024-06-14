@@ -94,7 +94,7 @@ window.onload = function() {
     document.body.appendChild(css);
 };
 
-// deadmenSound
+/* deadmenSound
 deadmenSound.volume = 1;
 
 function dead() {
@@ -104,3 +104,29 @@ deadmenSound.load();
 deadmenSound.play();
 }
 
+*/
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Funktio äänen soittamiseen
+    function playSound(soundId) {
+        const soundElement = document.getElementById(soundId);
+        if (soundElement) {
+            soundElement.play();
+        } 
+    }
+
+    // Haetaan kaikki .control -elementit
+    const controlElements = document.querySelectorAll('.control');
+
+    // Lisätään tapahtumankuuntelija jokaiselle .control -elementille
+    controlElements.forEach(control => {
+        // Haetaan data-id attribuutin arvo
+        const dataId = control.getAttribute('data-id');
+        
+        // Lisätään tapahtumankuuntelija nappulalle
+        control.addEventListener('click', () => {
+            // Soitetaan ääni sen mukaan, mikä nappula painettiin
+            playSound(`${dataId}-sound`);
+        });
+    });
+});
