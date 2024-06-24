@@ -513,8 +513,8 @@ html {
 .portfolios {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2rem;
-  margin-top: 3rem;
+  grid-gap: 1.5rem;
+  margin-top: 2rem;
 }
 .portfolios .portfolio-item {
   position: relative;
@@ -584,8 +584,8 @@ html {
 .blogs {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2rem;
-  margin-top: 3rem;
+  grid-gap: 1.5rem;
+  margin-top: 2rem;
 }
 .blogs .blog {
   position: relative;
