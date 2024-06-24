@@ -619,7 +619,7 @@ html {
   border-top: 8px solid var(--color-secondary);
 }
 .blogs .blog .blog-text h4 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-bottom: 0.7rem;
   transition: all 0.4s ease-in-out;
   cursor: pointer;
@@ -630,7 +630,7 @@ html {
 .blogs .blog .blog-text p {
   color: var(--color-grey-2);
   line-height: 2rem;
-  padding-bottom: 1rem;
+  padding-bottom: 0rem;
 }
 
 .contact-content-con {
