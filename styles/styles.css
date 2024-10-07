@@ -95,7 +95,7 @@ section {
 }
 @keyframes appear {
   0% {
-    transform: translateY(-100%) scaleY(0);
+    transform: translateY(0%) scaleY(0);
   }
   100% {
     transform: translateY(0) scaleY(1);
@@ -335,6 +335,12 @@ section {
   font-size: 2rem;
   text-transform: uppercase;
 }
+
+
+
+
+
+
 
 .about-stats {
   padding-bottom: 4rem;
