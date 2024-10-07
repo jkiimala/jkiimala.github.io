@@ -337,7 +337,30 @@ section {
 }
 
 
+:root {
+  --items-per-page: 4;
+}
 
+.carousel {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-container {
+  /* Prevent logos from wrapping to the next line */
+  white-space: nowrap;
+}
+
+.carousel-item {
+  display: inline-block;
+  min-width: calc(100% / var(--items-per-page));
+  box-sizing: border-box;
+  padding: 0px;
+  text-align: center;
+  margin-bottom: 10px;
+    
+}
 
 
 .about-stats {
