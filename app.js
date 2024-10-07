@@ -19,6 +19,9 @@ function topFunction() {
 }
 
 
+
+
+
 (function () {
     [...document.querySelectorAll(".control")].forEach(button => {
         button.addEventListener("click", function() {
@@ -93,6 +96,3 @@ window.onload = function() {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
     document.body.appendChild(css);
 };
-
-
-
