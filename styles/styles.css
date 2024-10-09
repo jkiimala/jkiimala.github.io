@@ -811,6 +811,7 @@ html {
 
 .main-title {
   text-align: center;
+
 }
 .main-title h2 {
   position: relative;
@@ -818,6 +819,7 @@ html {
   font-size: 4rem;
   font-weight: 700;
 }
+
 .main-title h2 span {
   color: var(--color-secondary);
 }
