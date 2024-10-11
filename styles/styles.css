@@ -431,7 +431,7 @@ html {
 
 
 
-/* TAITOPROSENTIT */
+/* TAITOPROSENTIT 
 .about-stats .progress-bars .progress-bar .progress-con .progress .html {
   width: 90%;
 }
@@ -453,7 +453,7 @@ html {
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .new {
   width: 40%;
-}
+} */
 
 .stat-title {
   text-transform: uppercase;
@@ -927,8 +927,8 @@ html {
 
 /* ANIMAATIO */
 .bounce-top {
-	-webkit-animation: bounce-top 0.9s 2 both;
-	        animation: bounce-top 0.9s 2 both;
+	-webkit-animation: bounce-top 0.7s 2 both;
+	        animation: bounce-top 0.7s 2 both;
 }
 
 @-webkit-keyframes bounce-top {
