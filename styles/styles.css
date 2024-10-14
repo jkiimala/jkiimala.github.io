@@ -431,30 +431,6 @@ html {
 
 
 
-/* TAITOPROSENTIT 
-.about-stats .progress-bars .progress-bar .progress-con .progress .html {
-  width: 90%;
-}
-.about-stats .progress-bars .progress-bar .progress-con .progress .css {
-  width: 85%;
-}
-.about-stats .progress-bars .progress-bar .progress-con .progress .js {
-  width: 40%;
-}
-.about-stats .progress-bars .progress-bar .progress-con .progress .react {
-  width: 85%;
-}
-.about-stats .progress-bars .progress-bar .progress-con .progress .node {
-  width: 87%;
-}
-.about-stats .progress-bars .progress-bar .progress-con .progress .python {
-  width: 75%;
-}
-
-.about-stats .progress-bars .progress-bar .progress-con .progress .new {
-  width: 40%;
-} */
-
 .stat-title {
   text-transform: uppercase;
   font-size: 2.4rem;
