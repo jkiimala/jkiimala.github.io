@@ -80,24 +80,6 @@ class TxtType {
     }
 }
 
-
-window.onload = function() {
-    let elements = document.getElementsByClassName('typewrite');
-    for (let i=0; i<elements.length; i++) {
-        let toRotate = elements[i].getAttribute('data-type');
-        let period = elements[i].getAttribute('data-period');
-        if (toRotate) {
-          new TxtType(elements[i], JSON.parse(toRotate), period);
-        }
-    }
-    // INJECT CSS
-    let css = document.createElement("style");
-    css.type = "text/css";
-    css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
-    document.body.appendChild(css);
-};
-
-
 const carouselContainer = document.getElementById('carouselContainer');
 
 // Clone the carousel content to create a continuous loop
@@ -107,6 +89,8 @@ carouselContainer.innerHTML += carouselItems;
 // Set up animation
 let scrollLeft = 0;
 const scrollSpeed = 5; // Adjust the scroll speed as needed
+
+// SOFTWARE SKILLS ANIMAATIO //
 
 function animateCarousel(timestamp) {
     if (!lastTimestamp) {
@@ -125,5 +109,25 @@ function animateCarousel(timestamp) {
     requestAnimationFrame(animateCarousel);
 }
 
+
+
 let lastTimestamp = null;
 requestAnimationFrame(animateCarousel);
+
+window.onload = function() {
+    let elements = document.getElementsByClassName('typewrite');
+    for (let i=0; i<elements.length; i++) {
+        let toRotate = elements[i].getAttribute('data-type');
+        let period = elements[i].getAttribute('data-period');
+        if (toRotate) {
+          new TxtType(elements[i], JSON.parse(toRotate), period);
+        }
+    }
+    // INJECT CSS
+    let css = document.createElement("style");
+    css.type = "text/css";
+    css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+    document.body.appendChild(css);
+};
+
+
