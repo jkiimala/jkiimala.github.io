@@ -119,7 +119,6 @@ section {
 
 
 .controls .control {
-  margin-top: 0;
   padding: 1rem;
   cursor: pointer;
   background-color: var(--color-grey-4);
