@@ -15,6 +15,7 @@
 })();
 
 
+
 //TYPEWRITER TEXT EFFECT //
 class TxtType {
     constructor(el, toRotate, period) {
