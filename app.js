@@ -14,7 +14,15 @@
     })
 })();
 
-
+function scrollToSection(sectionId) {
+    // Vieritetään ensin ylös
+    window.scrollTo(0, 0);
+    
+    // Viive varmistaa, että vieritys tapahtuu ennen siirtymistä
+    setTimeout(function() {
+      document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+    }, 100); // Aseta tarvittaessa pidempi viive
+  }
 
 //TYPEWRITER TEXT EFFECT //
 class TxtType {
