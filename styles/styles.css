@@ -252,9 +252,22 @@ section {
   height: 100%;
   object-fit: cover;
   transition: all 0.4s ease-in-out;
-  filter: grayscale(0%);
-  
+  animation: grayscaleBlink 1s infinite; /* 2s tarkoittaa sekuntia per sykle, infinite toistaa animaation jatkuvasti */
 }
+
+/* Animaation määrittely */
+@keyframes grayscaleBlink {
+  0% {
+    filter: grayscale(0%); /* Normaaliväri */
+  }
+  50% {
+    filter: grayscale(100%); /* Harmaasävy 100% */
+  }
+  100% {
+    filter: grayscale(0%); /* Takaisin normaaliväriin */
+  }
+}
+
 
 
 .header-content .left-header .image img:hover {
