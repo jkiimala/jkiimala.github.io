@@ -15,13 +15,21 @@
 })();
 
 function scrollToSection(sectionId) {
-    // Vieritetään ensin ylös
+    // Estä vieritys hetkellisesti
+    document.body.style.overflow = 'hidden';
+
+    // Siirry annettuun osioon (esim. blogs)
+    const section = document.getElementById(sectionId);
+    
+    // Varmista, että sivu vieritetään ylös
     window.scrollTo(0, 0);
     
-    // Viive varmistaa, että vieritys tapahtuu ennen siirtymistä
+    // Vieritä uuteen osioon smoothisti
     setTimeout(function() {
       document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
-    }, 100); // Aseta tarvittaessa pidempi viive
+      // Palauta vieritys
+      document.body.style.overflow = 'auto';
+    }, 100);
   }
 
 //TYPEWRITER TEXT EFFECT //
