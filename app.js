@@ -15,21 +15,15 @@
 })();
 
 function scrollToSection(sectionId) {
-    // Estä vieritys hetkellisesti
-    document.body.style.overflow = 'hidden';
-
-    // Siirry annettuun osioon (esim. blogs)
-    const section = document.getElementById(sectionId);
-    
-    // Varmista, että sivu vieritetään ylös
+    // Nollataan scrollaus
     window.scrollTo(0, 0);
     
-    // Vieritä uuteen osioon smoothisti
+    // Vieritetään haluttuun kohtaan
     setTimeout(function() {
-      document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
-      // Palauta vieritys
-      document.body.style.overflow = 'auto';
-    }, 100);
+      const element = document.getElementById(sectionId);
+      const topPos = element.getBoundingClientRect().top + window.pageYOffset;
+      window.scrollTo({ top: topPos, behavior: 'smooth' });
+    }, 50); // Viive voi auttaa mobiilissa
   }
 
 //TYPEWRITER TEXT EFFECT //
