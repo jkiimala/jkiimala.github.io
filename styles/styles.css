@@ -389,17 +389,6 @@ section {
 }
 
 
-
-
-
-html {
-	scroll-behavior: smooth;
-}
-
-
-
-
-
 .stat-title {
   text-transform: uppercase;
   font-size: 2.4rem;
