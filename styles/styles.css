@@ -252,7 +252,7 @@ section {
   height: 100%;
   object-fit: cover;
   transition: all 0.4s ease-in-out;
-  animation: grayscaleBlink 1s infinite; /* 2s tarkoittaa sekuntia per sykle, infinite toistaa animaation jatkuvasti */
+  animation: grayscaleBlink 1s infinite; /* 2s tarkoittaa sekuntia per sykli, infinite toistaa animaation jatkuvasti */
 }
 
 /* Animaation määrittely */
@@ -486,7 +486,7 @@ html {
 
 .portfolios {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 1.5rem;
   margin-top: 2rem;
 }
@@ -559,7 +559,7 @@ html {
 
 .blogs {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 1.5rem;
   margin-top: 2rem;
 }
