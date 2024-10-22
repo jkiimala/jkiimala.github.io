@@ -89,9 +89,9 @@ section {
   transition: all 0.4s ease-in-out;
   background-color: var(--color-primary);
   width: 100%;
-  
-  
 }
+
+
 
 .active {
   display: block;
@@ -291,7 +291,7 @@ section {
 .header-content .right-header p {
   margin: 1.5rem 0;
   line-height: 2rem;
-  margin-top: 0%;
+  margin-top: 2rem;
 }
 
 /*About*/
@@ -429,6 +429,7 @@ section {
 .timeline .timeline-item .tl-icon i {
   font-size: 1.3rem;
 }
+
 .timeline .timeline-item .tl-duration {
   padding: 0.2rem 0.6rem;
   background-color: var(--color-grey-5);
@@ -477,6 +478,9 @@ section {
   grid-gap: 0.8rem;
   margin-top: 2rem;
 }
+
+
+
 .portfolios .portfolio-item {
   position: relative;
   border-radius: 5px;
@@ -749,13 +753,17 @@ section {
 .main-title h2 {
   position: relative;
   text-transform: uppercase;
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 700;
+  
 }
 
 .main-title h2 span {
   color: var(--color-secondary);
 }
+
+
+
 .main-title h2 .bg-text {
   position: absolute;
   top: 50%;
