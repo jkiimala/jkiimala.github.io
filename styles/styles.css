@@ -1406,9 +1406,10 @@ section {
   .about-container .left-about p {
     padding-left: 0;
   }
-
-  .blogs {
-    
+ 
+  .blogs-content {
+    overflow: scroll;
+    margin-top: 0;
     top: 0;
   }
 }
