@@ -750,6 +750,8 @@ section {
   text-align: center;
 
 }
+
+/* OTSIKON MUOTOILU */
 .main-title h2 {
   position: relative;
   text-transform: uppercase;
@@ -1074,6 +1076,8 @@ section {
     grid-template-columns: repeat(1, 1fr);
     padding-bottom: 6rem;
     margin-top: 1rem;
+    height: auto;
+    top: 0;
   }
 
   .contact-content-con {
@@ -1237,6 +1241,8 @@ section {
 @media screen and (max-width: 660px) {
   .blogs {
     grid-template-columns: repeat(2, 1fr);
+    height: auto;
+    top: 0;
   }
 
   .portfolios {
