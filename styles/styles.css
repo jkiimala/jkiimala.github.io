@@ -1383,13 +1383,13 @@ section {
   }
 
   .main-title h2 {
-    font-size: 1.9rem;
+    font-size: 2.1rem;
   }
   .main-title h2 span {
-    font-size: 1.9rem;
+    font-size: 2.1rem;
   }
   .main-title h2 .bg-text {
-    font-size: 1.9rem;
+    font-size: 2.1rem;
   }
 
   .about-container {
@@ -1405,5 +1405,10 @@ section {
   }
   .about-container .left-about p {
     padding-left: 0;
+  }
+
+  .blogs {
+    
+    top: 0;
   }
 }
