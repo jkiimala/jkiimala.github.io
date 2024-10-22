@@ -376,21 +376,21 @@ section {
 .carousel-container {
   /* Prevent logos from wrapping to the next line */
   white-space: nowrap;
+  
 }
 
 .carousel-item {
   display: inline-block;
   min-width: calc(100% / var(--items-per-page));
   box-sizing: border-box;
-  padding: 0px;
   text-align: center;
-  margin-bottom: 4px;
+  margin-bottom: 0.2rem;
     
 }
 
 
 .stat-title {
-  text-transform: uppercase;
+  
   font-size: 2.4rem;
   text-align: center;
   padding: 2rem 0;
