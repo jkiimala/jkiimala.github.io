@@ -477,8 +477,8 @@ section {
 
 .portfolios {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1.5rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.8rem;
   margin-top: 2rem;
 }
 .portfolios .portfolio-item {
@@ -550,8 +550,8 @@ section {
 
 .blogs {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1.5rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.8rem;
   margin-top: 2rem;
 }
 
@@ -1171,16 +1171,28 @@ section {
     padding-left: 0;
   }
 
+  .portfolios {
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 6rem;
+    margin-top: 1rem;
+  }
+
+  .blogs {
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 6rem;
+    margin-top: 1rem;
+  }
+
   
 }
 @media screen and (max-width: 1250px) {
   .blogs {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     margin-top: 6rem;
   }
 
   .portfolios {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .header-content .right-header {
@@ -1219,11 +1231,11 @@ section {
 
 @media screen and (max-width: 660px) {
   .blogs {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .portfolios {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -1235,6 +1247,17 @@ section {
     padding-top: 2.5rem;
   }
 
+  .portfolios {
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 6rem;
+    margin-top: 1rem;
+  }
+
+  .blogs {
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 6rem;
+    margin-top: 1rem;
+  }
   
   .imagePhone {
     display: none;
@@ -1262,6 +1285,18 @@ section {
 
   .imagePhone {
     display: none;
+  }
+
+  .portfolios {
+    grid-template-columns: repeat(1, 1fr);
+    padding-bottom: 6rem;
+    margin-top: 1rem;
+  }
+
+  .blogs {
+    grid-template-columns: repeat(1, 1fr);
+    padding-bottom: 6rem;
+    margin-top: 1rem;
   }
 
   .flip-card {
