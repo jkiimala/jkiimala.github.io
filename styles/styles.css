@@ -42,9 +42,9 @@
 body {
   background-color: var(--color-primary);
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: var(--color-white);
   transition: all 0.4s ease-in-out;
   overflow-x: hidden;
@@ -391,7 +391,7 @@ section {
 
 .stat-title {
   
-  font-size: 2.4rem;
+  font-size: 1.5rem;
   text-align: center;
   padding: 2rem 0;
   position: relative;
@@ -463,9 +463,10 @@ section {
   border-radius: 10px;
 }
 
+/* EDU IMAGE KOKO JNE */
 .timeline .timeline-item img {
   width: 100%;
-  height: 120px;
+  height: auto;
   object-fit: cover;
   border-radius: 10px;
 }
@@ -589,7 +590,8 @@ section {
   border-top: 8px solid var(--color-secondary);
 }
 .blogs .blog .blog-text h4 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  font-weight: 500;
   margin-bottom: 0.7rem;
   transition: all 0.4s ease-in-out;
   cursor: pointer;
