@@ -1,13 +1,17 @@
 function scrollToSection(sectionId) {
-    // Nollataan scrollaus
+    // Nollaa vierityksen
     window.scrollTo(0, 0);
-    
-    // Vieritetään haluttuun kohtaan
+
+    // Hae haluttu osio ja siirry siihen
+    const section = document.getElementById(sectionId);
+
+    // Vieritä smoothisti haluttuun kohtaan
+    section.scrollIntoView({ behavior: 'smooth' });
+
+    // Tämä estää vanhan vierityksen siirtymisen uuteen kohtaan
     setTimeout(function() {
-      const element = document.getElementById(sectionId);
-      const topPos = element.getBoundingClientRect().top + window.pageYOffset;
-      window.scrollTo({ top: topPos, behavior: 'smooth' });
-    }, 50); // Viive voi auttaa mobiilissa
+      window.scrollTo(0, 0);  // Varmistaa, että vieritys on nollattu
+    }, 100);
   }
 
 (function () {
