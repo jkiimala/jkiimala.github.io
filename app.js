@@ -1,6 +1,4 @@
-window.addEventListener('resize', () => {
-    ScrollTrigger.refresh();
-  });
+
 
   // bypass auto scrolling.
 if ('scrollRestoration' in history) {
