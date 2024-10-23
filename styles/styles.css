@@ -1383,13 +1383,13 @@ section {
   }
 
   .main-title h2 {
-    font-size: 2.1rem;
+    font-size: 2.5rem;
   }
   .main-title h2 span {
-    font-size: 2.1rem;
+    font-size: 2.5rem;
   }
   .main-title h2 .bg-text {
-    font-size: 2.1rem;
+    font-size: 2.5rem;
   }
 
   .about-container {
@@ -1407,7 +1407,7 @@ section {
     padding-left: 0;
   }
  
-  .blogs-content {
+  .data-id {
     overflow: scroll;
     margin-top: 0;
     top: 0;
