@@ -237,7 +237,9 @@ section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   min-height: 100vh;
+  
 }
+
 .header-content .left-header {
   display: flex;
   align-items: center;
@@ -1012,6 +1014,7 @@ section {
   .header-content {
     grid-template-columns: repeat(1, 1fr);
     padding-bottom: 6rem;
+    margin-bottom: -96px;
   }
 
   .left-header .h-shape {
@@ -1253,12 +1256,14 @@ section {
     grid-template-columns: repeat(2, 1fr);
     height: auto;
     top: 0;
+    
   }
 
   .portfolios {
     grid-template-columns: repeat(2, 1fr);
   }
-}
+
+  
 
 @media screen and (max-width: 1070px) {
   .about-container {
