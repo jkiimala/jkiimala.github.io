@@ -2,6 +2,11 @@ window.addEventListener('resize', () => {
     ScrollTrigger.refresh();
   });
 
+  // bypass auto scrolling.
+if ('scrollRestoration' in history) {
+    history.scrollRestoration = 'manual';
+  }
+
 (function () {
     [...document.querySelectorAll(".control")].forEach(button => {
         button.addEventListener("click", function() {
