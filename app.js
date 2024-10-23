@@ -1,8 +1,13 @@
-
-
-  // bypass auto scrolling.
-if ('scrollRestoration' in history) {
-    history.scrollRestoration = 'manual';
+function scrollToSection(sectionId) {
+    // Nollataan scrollaus
+    window.scrollTo(0, 0);
+    
+    // Vieritetään haluttuun kohtaan
+    setTimeout(function() {
+      const element = document.getElementById(sectionId);
+      const topPos = element.getBoundingClientRect().top + window.pageYOffset;
+      window.scrollTo({ top: topPos, behavior: 'smooth' });
+    }, 50); // Viive voi auttaa mobiilissa
   }
 
 (function () {
