@@ -1,7 +1,6 @@
-window.addEventListener('unload', function(e){
-    document.body.style.display = 'none';
-    window.scrollTo(0, 0)
-    });
+window.addEventListener('resize', () => {
+    ScrollTrigger.refresh();
+  });
 
 (function () {
     [...document.querySelectorAll(".control")].forEach(button => {
