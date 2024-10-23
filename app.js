@@ -1,4 +1,7 @@
-
+window.addEventListener('unload', function(e){
+    document.body.style.display = 'none';
+    window.scrollTo(0, 0)
+    });
 
 (function () {
     [...document.querySelectorAll(".control")].forEach(button => {
