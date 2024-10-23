@@ -1,17 +1,13 @@
-function scrollToSection(sectionId) {
-    // Nollaa vierityksen
-    window.scrollTo(0, 0);
+function navigateToBlogs(event) {
+    event.preventDefault();  // Estää oletustoiminnon
+    window.scrollTo(0, 0);   // Vieritä ylös
 
-    // Hae haluttu osio ja siirry siihen
-    const section = document.getElementById(sectionId);
+    // Vieritä haluttuun osioon
+    const blogsSection = document.getElementById('blogs');
+    blogsSection.scrollIntoView({ behavior: 'smooth' });
 
-    // Vieritä smoothisti haluttuun kohtaan
-    section.scrollIntoView({ behavior: 'smooth' });
-
-    // Tämä estää vanhan vierityksen siirtymisen uuteen kohtaan
-    setTimeout(function() {
-      window.scrollTo(0, 0);  // Varmistaa, että vieritys on nollattu
-    }, 100);
+    // Lisävarmistus, että vieritys pysyy ylhäällä
+    setTimeout(() => window.scrollTo(0, 0), 100);
   }
 
 (function () {
