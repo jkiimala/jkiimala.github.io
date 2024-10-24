@@ -1005,6 +1005,7 @@ section {
   .header-content {
     margin-bottom: -3rem;
     margin-top: -2rem;
+    max-height: fit-content;
   }
  
   .theme-btn {
