@@ -380,6 +380,7 @@ section {
   position: relative;
 }
 
+
 .carousel-container {
   /* Prevent logos from wrapping to the next line */
   white-space: nowrap;
@@ -1001,6 +1002,11 @@ section {
     
   }
 
+  .header-content {
+    margin-bottom: -3rem;
+    margin-top: -2rem;
+  }
+ 
   .theme-btn {
     width: 50px;
     height: 50px;
