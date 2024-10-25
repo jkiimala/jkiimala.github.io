@@ -1221,6 +1221,7 @@ section {
   .blogs {
     grid-template-columns: repeat(3, 1fr);
     margin-top: 6rem;
+    margin-bottom: -5rem;
   }
 
   .portfolios {
@@ -1266,7 +1267,7 @@ section {
     grid-template-columns: repeat(2, 1fr);
     height: auto;
     top: 0;
-    
+    margin-bottom: -5rem;
   }
 
   .portfolios {
@@ -1293,6 +1294,7 @@ section {
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 6rem;
     margin-top: 1rem;
+    
   }
   
   .imagePhone {
@@ -1333,6 +1335,7 @@ section {
     grid-template-columns: repeat(1, 1fr);
     padding-bottom: 6rem;
     margin-top: 1rem;
+    
   }
 
   .flip-card {
@@ -1402,8 +1405,7 @@ section {
     display: none;
   }
 
- 
-
+  
   .about-container .right-about {
     grid-template-columns: repeat(1, 1fr);
   }
