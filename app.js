@@ -94,9 +94,10 @@ function animateCarousel(timestamp) {
         scrollLeft = 0;
     }
     carouselContainer.style.transform = `translateX(-${scrollLeft}px)`;
-
+    
     requestAnimationFrame(animateCarousel);
 }
+
 
 
 

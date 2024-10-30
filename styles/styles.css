@@ -392,20 +392,23 @@ section {
   min-width: calc(100% / var(--items-per-page));
   box-sizing: border-box;
   text-align: center;
-  margin-bottom: 0.1rem;
-    
+  margin-bottom: 0.1rem;   
 }
 
+.carousel-item img {
+  width: 6rem; /* Aseta leveys suhteessa containeriin */
+  height: auto; /* Korkeus skaalautuu automaattisesti */
+  object-fit: contain;
+}
 
-
-.stat-title {
-  
+.stat-title { 
   font-size: 1.5rem;
   text-align: center;
   margin-top: 2rem;
   padding: 2rem 0;
   position: relative;
 }
+
 .stat-title::before {
   content: "";
   position: absolute;
