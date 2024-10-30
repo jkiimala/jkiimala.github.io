@@ -1221,7 +1221,7 @@ section {
   .blogs {
     grid-template-columns: repeat(3, 1fr);
     margin-top: 6rem;
-    margin-bottom: -5rem;
+    
   }
 
   .portfolios {
