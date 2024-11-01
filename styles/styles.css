@@ -60,7 +60,7 @@ body {
   height: 150px;
   position: relative;
   transform-style: preserve-3d;
-  animation: rotateCube 8s linear infinite;
+  animation: rotateCube 7s linear infinite;
   margin-top: 2rem;
   margin-left: 10rem;
 }
@@ -78,7 +78,7 @@ body {
 /* Kuution sivujen tyyli */
 .face {
   position: absolute;
-  width: 100px;
+  width: 150px;
   height: 100px;
   display: flex;
   border-radius: 5%;
