@@ -66,6 +66,7 @@ requestAnimationFrame(animateCarousel);
 document.addEventListener("DOMContentLoaded", function() {
     const texts = [
       "3D Modeling",
+      "Responsive Coding",
       "Motion Graphics",
       "Artificial Intelligence",
       "Content Creation",
@@ -84,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function() {
       setTimeout(() => {
         currentIndex = (currentIndex + 1) % texts.length;
         animatedText.textContent = texts[currentIndex];
-        animatedText.style.animation = "bounceInDown 1s forwards";
+        animatedText.style.animation = "bounceInDown 0.5s forwards";
       }, 1000); // odotusaika ennen uuden tekstin näyttämistä
     }
   
