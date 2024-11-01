@@ -62,7 +62,7 @@ body {
   transform-style: preserve-3d;
   animation: rotateCube 7s linear infinite;
   margin-top: 2rem;
-  margin-left: 10rem;
+  margin-left: 15rem;
 }
 
 /* Kuution perusrakenne */
@@ -349,15 +349,18 @@ section {
 }
 .header-content .right-header .name {
   font-size: 3rem;
+  text-align: center;
 }
 .header-content .right-header .name span {
   color: var(--color-secondary);
+  align-content: center;
   
 }
 .header-content .right-header p {
   margin: 1.5rem 0;
   line-height: 2rem;
   margin-top: 2rem;
+  text-align: center;
 }
 
 /*About*/
@@ -1104,6 +1107,7 @@ section {
     padding-top: 3rem;
   }
 
+  
   .header-content .left-header .image {
     margin: 0 auto;
     width: 90%;
@@ -1222,6 +1226,9 @@ section {
     margin-left: 1rem;
   }
   
+  .right-header .name {
+    text-align: center;
+  }
   .contact-content-con {
     flex-direction: column;
   }
@@ -1297,6 +1304,10 @@ section {
     margin-left: 1rem;
   }
 
+  .right-header .name {
+    text-align: center;
+  }
+
   .portfolios {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -1347,7 +1358,16 @@ section {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  
+  .scene {
+   
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+
+  .right-header .name {
+    text-align: center;
+  }
+
 
 @media screen and (max-width: 1070px) {
   .about-container {
@@ -1357,6 +1377,15 @@ section {
     padding-top: 2.5rem;
   }
 
+  .scene {
+   
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+
+  .right-header .name {
+    text-align: center;
+  }
  
   .portfolios {
     grid-template-columns: repeat(2, 1fr);
@@ -1399,6 +1428,13 @@ section {
     display: none;
   }
 
+  .scene {
+   
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+
+  
   .portfolios {
     grid-template-columns: repeat(1, 1fr);
     padding-bottom: 6rem;
@@ -1479,6 +1515,9 @@ section {
     display: none;
   }
 
+  .right-header .name {
+    text-align: center;
+  }
   
   .about-container .right-about {
     grid-template-columns: repeat(1, 1fr);
