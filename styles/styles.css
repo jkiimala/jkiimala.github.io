@@ -54,6 +54,58 @@ body {
   height: 100%; 
 }
 
+/* Kuutio ja sen pyörimisanimaatio */
+.scene {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  transform-style: preserve-3d;
+  animation: rotateCube 8s linear infinite;
+  margin-top: 2rem;
+  margin-left: 10rem;
+}
+
+/* Kuution perusrakenne */
+.cube {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transform: rotateX(-30deg);
+  margin-top: 3rem;
+}
+
+/* Kuution sivujen tyyli */
+.face {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  border-radius: 5%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  opacity: 70%;
+  font-size: 1.0em;
+  font-weight:normal;
+  background: var(--color-secondary);
+  border: 2px solid rgb(255, 255, 255);
+}
+
+/* Sivujen sijoittelu 3D-tilassa */
+.front  { transform: translateZ(100px); }
+.back   { transform: rotateY(180deg) translateZ(100px); }
+.left   { transform: rotateY(-90deg) translateZ(100px); }
+.right  { transform: rotateY(90deg) translateZ(100px); }
+.top    { transform: rotateX(90deg) translateZ(100px); }
+.bottom { transform: rotateX(-90deg) translateZ(100px); }
+
+/* Pyörimisanimaatio */
+@keyframes rotateCube {
+  0%   { transform: rotateX(0deg) rotateY(0deg); }
+  100% { transform: rotateX(360deg) rotateY(360deg); }
+}
+
 
 a {
   display: inline-block;
@@ -1005,6 +1057,12 @@ section {
     
   }
 
+  .scene {
+   
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+
   .header-content {
     margin-bottom: -3rem;
     margin-top: -2rem;
@@ -1158,6 +1216,12 @@ section {
     padding: 7rem 11rem;
   }
 
+  .scene {
+   
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+  
   .contact-content-con {
     flex-direction: column;
   }
@@ -1227,6 +1291,12 @@ section {
     
   }
 
+  .scene {
+   
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+
   .portfolios {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -1287,6 +1357,7 @@ section {
     padding-top: 2.5rem;
   }
 
+ 
   .portfolios {
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 6rem;
