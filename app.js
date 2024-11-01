@@ -61,3 +61,33 @@ let lastTimestamp = null;
 requestAnimationFrame(animateCarousel);
 
 
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    const texts = [
+      "3D Modeling",
+      "Motion Graphics",
+      "Artificial Intelligence",
+      "Content Creation",
+      "2D Animations",
+      "Storytelling"
+    ];
+    
+    let currentIndex = 0;
+    const animatedText = document.getElementById("animatedText");
+  
+    function showNextText() {
+      // Lisää bounceOutDown-animaatio
+      animatedText.style.animation = "bounceOutDown 1s forwards";
+      
+      // Vaihtaa tekstin 1 sekunnin kuluttua ja aloittaa bounceInDown-animaation
+      setTimeout(() => {
+        currentIndex = (currentIndex + 1) % texts.length;
+        animatedText.textContent = texts[currentIndex];
+        animatedText.style.animation = "bounceInDown 1s forwards";
+      }, 1000); // odotusaika ennen uuden tekstin näyttämistä
+    }
+  
+    // Aloita tekstin vaihtaminen 3 sekunnin välein
+    setInterval(showNextText, 3000);
+  });
