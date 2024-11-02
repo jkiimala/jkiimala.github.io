@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function() {
       // Lisää bounceOutDown-animaatio
       animatedText.style.animation = "bounceOutDown 0.8s forwards";
       
-      // Vaihtaa tekstin 1 sekunnin kuluttua ja aloittaa bounceInDown-animaation
+      // Vaihtaa tekstin x sekunnin kuluttua ja aloittaa bounceInDown-animaation
       setTimeout(() => {
         currentIndex = (currentIndex + 1) % texts.length;
         animatedText.textContent = texts[currentIndex];
