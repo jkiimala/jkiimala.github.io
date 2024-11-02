@@ -61,7 +61,7 @@ let lastTimestamp = null;
 requestAnimationFrame(animateCarousel);
 
 
-
+// etusivun teksti //
 
 document.addEventListener("DOMContentLoaded", function() {
     const texts = [
@@ -79,14 +79,14 @@ document.addEventListener("DOMContentLoaded", function() {
   
     function showNextText() {
       // Lisää bounceOutDown-animaatio
-      animatedText.style.animation = "bounceOutDown 1s forwards";
+      animatedText.style.animation = "bounceOutDown 0.8s forwards";
       
       // Vaihtaa tekstin 1 sekunnin kuluttua ja aloittaa bounceInDown-animaation
       setTimeout(() => {
         currentIndex = (currentIndex + 1) % texts.length;
         animatedText.textContent = texts[currentIndex];
         animatedText.style.animation = "bounceInDown 0.5s forwards";
-      }, 1000); // odotusaika ennen uuden tekstin näyttämistä
+      }, 500); // odotusaika ennen uuden tekstin näyttämistä
     }
   
     // Aloita tekstin vaihtaminen 3 sekunnin välein

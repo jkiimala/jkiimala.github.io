@@ -54,7 +54,7 @@ body {
   height: 100%; 
 }
 
-/* tekstin animaatio */
+/* etusivun tekstin animaatio kokonaisuus */
 
 .scene {
   position: relative;
@@ -66,7 +66,7 @@ body {
 }
 
 .text {
-  font-size: 2em;
+  font-size: 1.8em;
   font-weight: bold;
   color: var(--color-secondary);
   animation: bounceInDown 2s ease forwards;
@@ -1056,7 +1056,7 @@ section {
 
   .scene {
    
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-left: 1rem;
   }
 
@@ -1216,7 +1216,7 @@ section {
 
   .scene {
    
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-left: 1rem;
   }
   
@@ -1294,7 +1294,7 @@ section {
 
   .scene {
    
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-left: 1rem;
   }
 
@@ -1354,7 +1354,7 @@ section {
 
   .scene {
    
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-left: 1rem;
   }
 
@@ -1373,7 +1373,7 @@ section {
 
   .scene {
    
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-left: 1rem;
   }
 
@@ -1424,7 +1424,7 @@ section {
 
   .scene {
    
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-left: 1rem;
   }
 
@@ -1503,6 +1503,12 @@ section {
 
   .imagePhone {
     display: none;
+  }
+
+  .scene {
+   
+    margin-top: 1rem;
+    margin-left: 1rem;
   }
 
   .flip-card {
