@@ -68,6 +68,7 @@ document.addEventListener("DOMContentLoaded", function() {
       "3D Modeling",
       "Responsive Coding",
       "Motion Graphics",
+      "Lean Six Sigma",
       "Artificial Intelligence",
       "Content Creation",
       "2D Animations",
