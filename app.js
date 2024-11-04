@@ -67,10 +67,11 @@ document.addEventListener("DOMContentLoaded", function() {
     const texts = [
       "3D Modeling",
       "Responsive Coding",
+      "Continuous Improvement",
       "Motion Graphics",
-      "Lean Six Sigma",
-      "Artificial Intelligence",
+      "Lean Thinking",
       "Content Creation",
+      "Artificial Intelligence",
       "2D Animations",
       "Storytelling"
     ];
