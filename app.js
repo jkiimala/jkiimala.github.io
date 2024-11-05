@@ -65,9 +65,9 @@ requestAnimationFrame(animateCarousel);
 
 document.addEventListener("DOMContentLoaded", function() {
     const texts = [
-      "3D Modeling",
-      "Responsive Coding",
       "Continuous Improvement",
+      "Responsive Coding",
+      "3D Modeling",
       "Motion Graphics",
       "Lean Thinking",
       "Content Creation",
