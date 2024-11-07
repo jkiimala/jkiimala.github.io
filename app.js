@@ -71,9 +71,7 @@ document.addEventListener("DOMContentLoaded", function() {
       "Motion Graphics",
       "Lean Thinking",
       "Content Creation",
-      "Artificial Intelligence",
-      "2D Animations",
-      "Storytelling"
+      "Artificial Intelligence"
     ];
     
     let currentIndex = 0;
@@ -81,16 +79,16 @@ document.addEventListener("DOMContentLoaded", function() {
   
     function showNextText() {
       // Lisää bounceOutDown-animaatio
-      animatedText.style.animation = "bounceOutDown 0.8s forwards";
+      animatedText.style.animation = "bounceOutDown 0.5s forwards";
       
       // Vaihtaa tekstin x sekunnin kuluttua ja aloittaa bounceInDown-animaation
       setTimeout(() => {
         currentIndex = (currentIndex + 1) % texts.length;
         animatedText.textContent = texts[currentIndex];
-        animatedText.style.animation = "bounceInDown 0.5s forwards";
-      }, 500); // odotusaika ennen uuden tekstin näyttämistä
+        animatedText.style.animation = "bounceInDown 0.4s forwards";
+      }, 300); // odotusaika ennen uuden tekstin näyttämistä
     }
   
     // Aloita tekstin vaihtaminen 3 sekunnin välein
-    setInterval(showNextText, 3000);
+    setInterval(showNextText, 2200);
   });
