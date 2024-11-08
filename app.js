@@ -66,11 +66,12 @@ requestAnimationFrame(animateCarousel);
 document.addEventListener("DOMContentLoaded", function() {
     const texts = [
       "Continuous Improvement",
-      "Responsive Coding",
-      "3D Modeling",
-      "Motion Graphics",
+      "International Relations",
+      "Collaboration",
+      "Networking",
+      "Communication",
+      "Cultural Awareness",
       "Lean Thinking",
-      "Content Creation",
       "Artificial Intelligence"
     ];
     
@@ -79,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
     function showNextText() {
       // Lisää bounceOutDown-animaatio
-      animatedText.style.animation = "bounceOutDown 0.5s forwards";
+      animatedText.style.animation = "bounceOutDown 0.8s forwards";
       
       // Vaihtaa tekstin x sekunnin kuluttua ja aloittaa bounceInDown-animaation
       setTimeout(() => {
