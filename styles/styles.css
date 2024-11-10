@@ -632,6 +632,7 @@ section {
 
 
 
+
 .blogs .blog {
   position: relative;
   background-color: var(--color-grey-5);
@@ -1288,7 +1289,7 @@ section {
   }
 
   .portfolios {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     padding-bottom: 6rem;
     margin-top: 1rem;
   }
@@ -1298,6 +1299,7 @@ section {
     padding-bottom: 6rem;
     margin-top: 1rem;
   }
+
 
   .contact-content-con {
     padding-bottom: 0%;
