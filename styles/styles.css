@@ -621,6 +621,10 @@ section {
   transform: scale(1);
 }
 
+.portfolio-item {
+  text-align: center;
+}
+
 
 
 .blogs {
