@@ -1273,13 +1273,13 @@ section {
   }
 
   .portfolios {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     padding-bottom: 6rem;
     margin-top: 1rem;
   }
 
   .blogs {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     padding-bottom: 6rem;
     margin-top: 1rem;
   }
