@@ -67,10 +67,10 @@ document.addEventListener("DOMContentLoaded", function() {
     const texts = [
       "Continuous Improvement",
       "International Relations",
-      "Collaboration",
+      "Responsive Web Design",
       "Networking",
-      "Communication",
-      "Cultural Awareness",
+      "Remote Teams",
+      "Motion Graphics",
       "Lean Thinking",
       "Artificial Intelligence"
     ];
@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", function() {
         currentIndex = (currentIndex + 1) % texts.length;
         animatedText.textContent = texts[currentIndex];
         animatedText.style.animation = "bounceInDown 0.4s forwards";
-      }, 300); // odotusaika ennen uuden tekstin näyttämistä
+      }, 500); // odotusaika ennen uuden tekstin näyttämistä
     }
   
     // Aloita tekstin vaihtaminen 3 sekunnin välein
