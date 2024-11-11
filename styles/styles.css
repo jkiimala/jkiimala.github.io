@@ -478,7 +478,7 @@ section {
 }
 
 .timeline, h5 {
-  height: 6em;
+  height: 5.5em;
 }
 .timeline .timeline-item {
   position: relative;
@@ -1157,6 +1157,8 @@ section {
     padding-bottom: 6rem;
   }
 
+  
+
   .container {
     padding: 2rem 2.5rem !important;
   }
@@ -1393,6 +1395,7 @@ section {
     text-align: center;
   }
 
+
  
 
 @media screen and (max-width: 1070px) {
@@ -1542,8 +1545,17 @@ section {
 
   .scene {
    
-    margin-top: 1rem;
-    
+    margin-top: 1rem;  
+  }
+
+
+  h5  {
+    margin-bottom: 1.8em;
+    padding-top: 0;
+  }
+
+  p {
+    margin-bottom: 0.5em;
   }
 
   .flip-card {
