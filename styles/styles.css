@@ -484,7 +484,7 @@ section {
   position: relative;
   padding-left: 3rem;
   border-left: 1px solid var(--color-grey-5);
-  padding-bottom: 2em;
+  padding-bottom: 0.8em;
 
 }
 .timeline .timeline-item .tl-icon {
@@ -525,6 +525,7 @@ section {
 }
 .timeline .timeline-item p {
   color: var(--color-grey-2);
+  padding: 0.5em;
 }
 
 .timeline .timeline-item {

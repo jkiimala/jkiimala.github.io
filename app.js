@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function() {
       "Responsive Web Design",
       "Networking",
       "Remote Teams",
-      "Motion Graphics",
+      "Communication",
       "Lean Thinking",
       "Artificial Intelligence"
     ];
