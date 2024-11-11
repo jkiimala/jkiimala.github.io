@@ -478,7 +478,7 @@ section {
 }
 
 .timeline, h5 {
-  height: 5.5em;
+  height: 5em;
 }
 .timeline .timeline-item {
   position: relative;
@@ -1231,11 +1231,11 @@ section {
     padding: 7rem 11rem;
   }
 
-  .scene {
-   
-    margin-top: 1rem;
-    
+  .scene { 
+    margin-top: 1rem; 
   }
+
+ 
 
   .timeline {
     display: grid;
@@ -1387,15 +1387,14 @@ section {
 
   .scene {
    
-    margin-top: 1rem;
-    
+    margin-top: 1rem;   
   }
 
   .right-header .name {
     text-align: center;
   }
 
-
+ 
  
 
 @media screen and (max-width: 1070px) {
