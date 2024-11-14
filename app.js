@@ -69,8 +69,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "International Relations",
       "Responsive Web Design",
       "Networking",
-      "Remote Teams",
       "Communication",
+      "Plan-Do-Check-Act",
       "Lean Thinking",
       "Artificial Intelligence"
     ];
