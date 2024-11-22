@@ -19,7 +19,7 @@
   --color-grey-2: #c5c6ca;
   --color-grey-3: #6c7983;
   --color-grey-4: #454e56;
-  --color-grey-5: #2a352e;
+  --color-grey-5: #1f201f;
   --color-grey-6: #12181b;
   --color-blue-7: #23acf3;
   --br-sm-2: 14px;
@@ -28,7 +28,7 @@
 
 .light-mode {
   --color-primary: #000000;
-  --color-secondary: #23acf3;
+  --color-secondary: #b823f3;
   --color-white: #ffffff;
   --color-black: #ffffff;
   --color-grey0: #f8f8f8;
@@ -36,7 +36,7 @@
   --color-grey-2: #b2becd;
   --color-grey-3: #6c7983;
   --color-grey-4: #454e56;
-  --color-grey-5: #2a352e;
+  --color-grey-5: #1f201f;
   --color-grey-6: #ffffff;
   --color-orange-7: #ff3c00;
 }
@@ -483,10 +483,9 @@ section {
 .timeline .timeline-item {
   position: relative;
   padding-left: 3rem;
-  border-left: 1px solid var(--color-grey-5);
   padding-bottom: 0.8em;
-
 }
+
 .timeline .timeline-item .tl-icon {
   position: absolute;
   left: -27px;
