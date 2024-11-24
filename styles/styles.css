@@ -682,7 +682,7 @@ section {
 .blogs .blog .blog-text {
   margin-top: -7px;
   padding: 1.1rem;
-  border-top: 8px solid var(--color-secondary);
+  border-top: 0.5rem solid var(--color-secondary);
 }
 .blogs .blog .blog-text h4 {
   font-size: 1.2rem;
