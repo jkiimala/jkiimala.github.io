@@ -76,6 +76,7 @@ body {
 
 .textHead {
   text-align: center;
+  line-height: 1.6;
   padding-top: 2rem;
   font-family: "Roboto", sans-serif;
   font-style: italic;
