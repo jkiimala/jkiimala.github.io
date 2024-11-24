@@ -57,15 +57,11 @@ body {
 
 /* etusivun tekstin animaatio kokonaisuus */
 
-.scene {
-  position: relative;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
 
+
+#animatedText {
+  text-align: center;
+}
 
 .text {
   font-size: 1.7em;
