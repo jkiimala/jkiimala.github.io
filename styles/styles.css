@@ -579,7 +579,9 @@ section {
   height: 190px;
   object-fit: cover;
   border-radius: 5px;
+  border-bottom: var(--color-secondary)solid 0.4rem;
 }
+
 .portfolios .portfolio-item .hover-items {
   width: 100%;
   height: 100%;
