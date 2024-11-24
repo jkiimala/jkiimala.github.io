@@ -78,6 +78,14 @@ body {
   opacity: 100;
 }
 
+.textHead {
+  text-align: center;
+  padding-top: 2rem;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  letter-spacing: 0.2rem;
+}
+
 /* Animaatiot */
 @keyframes bounceInDown {
   0% {
