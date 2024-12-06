@@ -285,7 +285,7 @@ section {
 }
 
 .theme-btn:hover {
-  background-color: var(--color-blue-7);
+  background-color: #b823f3;
   scale: 0.8;
   
 }
