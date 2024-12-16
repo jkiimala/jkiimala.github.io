@@ -526,7 +526,8 @@ section {
 .timeline .timeline-item p {
   color: var(--color-grey-2);
   padding: 0.5em;
-  font-size: x-small;
+  font-size: small;
+  line-height: 1.1rem;
 }
 
 .timeline .timeline-item {
@@ -549,7 +550,7 @@ section {
 
 .portfolios {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 0.6rem;
   margin-top: 2rem;
 }
@@ -680,6 +681,7 @@ section {
   margin-bottom: 0.7rem;
   transition: all 0.4s ease-in-out;
   cursor: pointer;
+  height: 2rem;
 }
 .blogs .blog .blog-text h4:hover {
   color: var(--color-secondary);
@@ -688,7 +690,8 @@ section {
   color: var(--color-grey-2);
   line-height: 2rem;
   padding-bottom: 0rem;
-  font-size: x-small;
+  font-size: smaller;
+  height: 6rem;
 }
 
 .contact-content-con {
@@ -706,7 +709,7 @@ section {
 .contact-content-con .left-contact p {
   margin: 1rem 0;
   line-height: 2rem;
-  font-size: x-small;
+  font-size: small;
 }
 
 .left-contact span {
