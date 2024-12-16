@@ -250,6 +250,7 @@ section {
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
+/* NAVINAPIT */
 
 .theme-btn {
   top: 5%;
@@ -535,13 +536,40 @@ section {
   border-radius: 10px;
 }
 
-/* EDU IMAGE KOKO JNE */
+/* EDU IMAGE KOKO JA EFEKTIT MOUSE-OVER */
 .timeline .timeline-item img {
   width: 100%;
   height: auto;
   object-fit: cover;
   border-radius: 5px;
+  transition: transform 0.5s ease-in-out;
 }
+
+/* Zoom effect */
+.timeline .timeline-item img:hover {
+  transform: scale(1.1);
+  -webkit-animation: flash 2s;
+	animation: flash 2s;
+}
+
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
 
 .port-text {
   padding: 2rem 0;

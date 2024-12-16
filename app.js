@@ -35,10 +35,18 @@ carouselContainer.innerHTML += carouselItems;
 
 // Set up animation
 let scrollLeft = 0;
-const scrollSpeed = 5; // Adjust the scroll speed as needed
+let scrollSpeed = 5; // Adjust the scroll speed as needed
 
-// SOFTWARE SKILLS ANIMAATIO //
+// Hover functionality
+carouselContainer.addEventListener('mouseover', () => {
+    scrollSpeed = 20; // Increase speed on hover
+});
 
+carouselContainer.addEventListener('mouseout', () => {
+    scrollSpeed = 5; // Reset speed when hover ends
+});
+
+// Animate the carousel
 function animateCarousel(timestamp) {
     if (!lastTimestamp) {
         lastTimestamp = timestamp;
@@ -52,13 +60,13 @@ function animateCarousel(timestamp) {
         scrollLeft = 0;
     }
     carouselContainer.style.transform = `translateX(-${scrollLeft}px)`;
-    
+
     requestAnimationFrame(animateCarousel);
 }
 
-
 let lastTimestamp = null;
 requestAnimationFrame(animateCarousel);
+
 
 
 // etusivun teksti //
