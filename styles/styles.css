@@ -545,6 +545,7 @@ section {
   object-fit: cover;
   border-radius: 5px;
   transition: transform 0.5s ease-in-out;
+  border-bottom: 0.4rem solid var(--color-secondary);
 }
 
 /* Zoom effect */
@@ -702,10 +703,11 @@ section {
   margin-top: -7px;
   padding: 1.1rem;
   border-top: 0.5rem solid var(--color-secondary);
+  height: 8rem;
 }
 
 .blogs .blog .blog-text h4 {
-  font-size:small;
+  font-size:smaller;
   text-transform: uppercase;
   font-weight: 400;
   line-height: 1.2rem;
@@ -714,13 +716,15 @@ section {
   cursor: pointer;
   height: 1.5rem;
 }
+
 .blogs .blog .blog-text h4:hover {
   color: var(--color-secondary);
 }
+
 .blogs .blog .blog-text p {
   color: var(--color-grey-2);
   line-height: 1rem;
-  padding-bottom: 0rem;
+  padding-top: 0.5rem;
   font-size: smaller;
   height: 5rem;
 }
