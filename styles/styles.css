@@ -595,7 +595,7 @@ section {
 
 .portfolios .portfolio-item img {
   width: 100%;
-  height: 190px;
+  height: 10rem;
   object-fit: cover;
   border-radius: 5px;
   border-bottom: var(--color-secondary)solid 0.4rem;
@@ -691,7 +691,7 @@ section {
 }
 .blogs .blog img {
   width: 100%;
-  height: 180px;
+  height: 10rem;
   object-fit: cover;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -708,20 +708,21 @@ section {
   font-size:small;
   text-transform: uppercase;
   font-weight: 400;
+  line-height: 1.2rem;
   margin-bottom: 0.7rem;
   transition: all 0.4s ease-in-out;
   cursor: pointer;
-  height: 2rem;
+  height: 1.5rem;
 }
 .blogs .blog .blog-text h4:hover {
   color: var(--color-secondary);
 }
 .blogs .blog .blog-text p {
   color: var(--color-grey-2);
-  line-height: 2rem;
+  line-height: 1rem;
   padding-bottom: 0rem;
   font-size: smaller;
-  height: 6rem;
+  height: 5rem;
 }
 
 .contact-content-con {
