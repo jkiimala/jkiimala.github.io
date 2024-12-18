@@ -1273,8 +1273,7 @@ section {
     margin-top: 1rem; 
   }
 
- 
-
+  
   .timeline {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -1285,6 +1284,8 @@ section {
   .right-header .name {
     text-align: center;
   }
+
+
   .contact-content-con {
     flex-direction: column;
   }
