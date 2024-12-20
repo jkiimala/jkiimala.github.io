@@ -1274,7 +1274,16 @@ section {
     margin-top: 1rem; 
   }
 
+  .main-title {
+  margin-top: -5rem;
   
+  }
+
+  
+  .flip-card {
+    padding-top: -5rem;
+  }
+
   .timeline {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
