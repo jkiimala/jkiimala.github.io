@@ -336,7 +336,7 @@ section {
   0% {
     filter: grayscale(0%); /* Normaaliväri */
   }
-  50% {
+50% {
     filter: grayscale(100%); /* Harmaasävy 100% */
   }
   100% {
