@@ -24,6 +24,36 @@ function navigateToBlogs(event) {
     })
 })();
 
+// tähtianimaatio //
+const starAnimation = document.querySelector('.star-animation');
+
+function createStar() {
+  const star = document.createElement('div');
+  star.classList.add('star');
+  
+  // Satunnainen sijainti vaakasuunnassa
+  star.style.left = `${Math.random() * 100}vw`;
+  
+  // Satunnainen animaation kesto
+  const duration = Math.random() * 5 + 3; // 3-8 sekuntia
+  star.style.animationDuration = `${duration}s`;
+
+  // Satunnainen koko
+  const size = Math.random() * 2 + 1; // 1-3px
+  star.style.width = `${size}px`;
+  star.style.height = `${size}px`;
+
+  // Lisää tähti tähtianimaatio-elementtiin
+  starAnimation.appendChild(star);
+
+  // Poista tähti, kun animaatio on valmis
+  setTimeout(() => {
+    star.remove();
+  }, duration * 1000);
+}
+
+// Luo tähtiä jatkuvasti
+setInterval(createStar, 100);
 
 
 
