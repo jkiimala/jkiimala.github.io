@@ -66,6 +66,7 @@ body {
   z-index: -1; /* Asetetaan taustalle */
 }
 
+
 .star-animation .star {
   position: absolute;
   width: 2px;
@@ -169,6 +170,12 @@ section {
   left: 0;
   top: 0;
   padding: 3rem 18rem;
+}
+
+#image {
+  background: transparent;
+  width: 100%;
+  height: 100vh;
 }
 
 #man {
@@ -340,17 +347,7 @@ section {
   align-items: center;
   position: relative;
 }
-.header-content .left-header .h-shape {
-  transition: all 0.4s ease-in-out;
-  width: 47%;
-  height: 100%;
-  background-color: var(--color-secondary);
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: -1;
-  clip-path: polygon(0 0, 36% 0, 99% 100%, 0% 100%);
-}
+
 .header-content .left-header .image {
   border-radius: var(--br-sm-2);
   height: 90%;
@@ -404,7 +401,7 @@ section {
   text-align: center;
 }
 
-/*About*/
+/*About SKILLS EDU */
 
 .about-container .right-about .about-item:hover {
   cursor: default;
@@ -1150,6 +1147,11 @@ section {
     
   }
 
+  #image {
+    background: transparent;
+    height: 58vh;
+  }
+
   .header-content {
     margin-bottom: -3rem;
     margin-top: -2rem;
@@ -1175,10 +1177,7 @@ section {
     
   }
 
-  .left-header .h-shape {
-    display: none;
-  }
-
+  
   .right-header {
     grid-row: 1;
     padding-right: 0rem !important;
@@ -1586,9 +1585,7 @@ section {
     padding-bottom: 6rem;
   }
 
-  .left-header .h-shape {
-    display: none;
-  }
+  
   .left-header .image {
     width: 90% !important;
     margin: 0 auto !important;
