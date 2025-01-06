@@ -186,6 +186,8 @@ section {
 
 }
 
+
+
 /* ETUSIVUN NIMI TYYLI */
 .name {
   font-family: "Just Another Hand";
@@ -808,6 +810,8 @@ section {
 .contact-content-con .left-contact .contact-icon {
   display: flex;
   margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: -1rem;
 }
 .contact-content-con .left-contact .contact-icon a {
   display: flex;
