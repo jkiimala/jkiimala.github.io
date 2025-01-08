@@ -782,11 +782,13 @@ section {
   margin: 1rem 0;
   line-height: 2rem;
   font-size: smaller;
+ 
 }
 
 .left-contact span {
   font-size: smaller;
   text-transform: uppercase;
+  margin-top: 0.5rem;
 }
 
 .contact-content-con .left-contact .contact-info .contact-item {
