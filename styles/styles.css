@@ -811,7 +811,7 @@ section {
   display: flex;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  margin-left: -1rem;
+  margin-left: -0.5rem;
 }
 .contact-content-con .left-contact .contact-icon a {
   display: flex;
