@@ -813,7 +813,7 @@ section {
   display: flex;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  margin-left: -0.5rem;
+  margin-left: 0rem;
 }
 .contact-content-con .left-contact .contact-icon a {
   display: flex;
@@ -825,9 +825,11 @@ section {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  margin: 0 0.4rem;
+  margin: 0 0.2rem;
   transition: all 0.4s ease-in-out;
 }
+
+
 .contact-content-con .left-contact .contact-icon a:hover {
   background-color: var(--color-secondary);
 }
