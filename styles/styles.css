@@ -1025,11 +1025,6 @@ section {
 
 
 
-
-
-
-
-
 /* ANIMAATIO */
 .bounce-top {
 	-webkit-animation: bounce-top 0.7s 2 both;
@@ -1159,9 +1154,14 @@ section {
   #image {
     background: transparent;
     height: 58vh;
+
   }
 
-  
+  .left-header {
+    width: 100vw;
+    margin-left: -4rem;
+    margin-bottom: -4rem;
+  }
 
   .header-content {
     margin-bottom: -3rem;
