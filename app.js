@@ -106,8 +106,7 @@ document.addEventListener("DOMContentLoaded", function() {
       "Continuous Improvement",
       "International Relations",
       "Responsive Web Design",
-      "Networking",
-      "Cross Functional Teams",
+      "Data Acquisition",
       "Plan-Do-Check-Act",
       "Lean Thinking",
       "Artificial Intelligence"
