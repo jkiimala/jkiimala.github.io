@@ -208,7 +208,7 @@ section {
 
 .active {
   display: block;
-  animation: appear 0.8s ease-in-out;
+  animation: appear 0.5s ease-in-out;
   transform: translateY(0) scaleY(1);
 }
 
