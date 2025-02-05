@@ -212,7 +212,8 @@ section {
   transform: translateY(0) scaleY(1);
 }
 
-@keyframes appear {
+/* SIVUJEN DOWN UP ANIMAATIO */
+/* @keyframes appear {
   0% {
     transform: translateY(50%) scaleY(0);
         
@@ -221,6 +222,7 @@ section {
     transform: translateY(0) scaleY(1);
   }
 }
+  */
 
 .controls {
   position: fixed;
@@ -623,8 +625,6 @@ section {
 }
 
 
-
-
 .portfolios .portfolio-item {
   position: relative;
   border-radius: 5px;
@@ -1025,7 +1025,7 @@ section {
 
 
 
-/* ANIMAATIO */
+/* ANIMAATIO SCAN ME
 .bounce-top {
 	-webkit-animation: bounce-top 0.7s 2 both;
 	        animation: bounce-top 0.7s 2 both;
@@ -1136,7 +1136,7 @@ section {
   }
 }
 
-
+*/
 
 
 @media screen and (max-width: 600px) {
