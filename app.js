@@ -10,6 +10,8 @@ function navigateToBlogs(event) {
     setTimeout(() => window.scrollTo(0, 0), 100);
   }
 
+
+
 (function () {
     [...document.querySelectorAll(".control")].forEach(button => {
         button.addEventListener("click", function() {
