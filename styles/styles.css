@@ -55,6 +55,13 @@ body {
   height: 100%; 
 }
 
+h2 {
+  font-family: "Oswald", serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.1cap;
+}
+
 /* etusivun tähtianimaatio */
 .star-animation {
   position: fixed;
