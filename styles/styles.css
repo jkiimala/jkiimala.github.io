@@ -377,18 +377,18 @@ section {
   animation: grayscaleBlink 1s infinite; /* 2s tarkoittaa sekuntia per sykli, infinite toistaa animaation jatkuvasti */
 }
 
-/* Animaation määrittely */
+/* Animaation määrittely 
 @keyframes grayscaleBlink {
   0% {
-    filter: grayscale(0%); /* Normaaliväri */
+    filter: grayscale(0%);  Normaaliväri 
   }
 50% {
-    filter: grayscale(100%); /* Harmaasävy 100% */
+    filter: grayscale(100%);  Harmaasävy 100% 
   }
   100% {
-    filter: grayscale(0%); /* Takaisin normaaliväriin */
+    filter: grayscale(0%);  Takaisin normaaliväriin 
   }
-}
+} */
 
 
 
@@ -1163,7 +1163,7 @@ section {
 
   #image {
     background: transparent;
-    height: 40vh;
+    height: 4vh;
   
   }
 
