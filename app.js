@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const dollar = document.createElement('div');
       dollar.classList.add('star');
-      dollar.textContent = '$';
+      dollar.textContent = '€';
 
       // Satunnainen sijainti vaakasuunnassa
       dollar.style.left = `${Math.random() * 100}vw`;
@@ -45,11 +45,11 @@ document.addEventListener("DOMContentLoaded", () => {
       dollar.style.setProperty('--z-depth', `${zDepth}px`);
 
       // Satunnainen koko
-      const size = `${Math.random() * 30 + 10}px`; // 10-50px
+      const size = `${Math.random() * 20 + 5}px`; // 10-50px
       dollar.style.setProperty('--size', size);
 
       // Satunnainen skaalaus
-      const scale = Math.random() * 0.6 + 0.4; // 0.4 - 1
+      const scale = Math.random() * 0.8 + 0.4; // 0.4 - 1
       dollar.style.setProperty('--scale', scale);
 
       // Satunnainen kääntyminen (luo elävyyttä)
