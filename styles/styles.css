@@ -58,7 +58,6 @@ body {
 h2 {
   font-family: "Oswald", serif;
   font-weight: 400;
-  font-style: normal;
   letter-spacing: 0.1cap;
 }
 
@@ -215,7 +214,7 @@ section {
 
 .active {
   display: block;
-  animation: appear 0.5s ease-in-out;
+  animation: appear 0.7s ease-in-out;
   transform: translateY(0) scaleY(1);
 }
 
@@ -284,11 +283,10 @@ section {
 }
 
 
-.fa-info-circle:hover {
+.fa-sack-dollar:hover {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
 }
-
 
 
 
