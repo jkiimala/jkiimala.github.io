@@ -27,35 +27,54 @@ function navigateToBlogs(event) {
 })();
 
 // tähtianimaatio //
-const starAnimation = document.querySelector('.star-animation');
+document.addEventListener("DOMContentLoaded", () => {
+  const starAnimation = document.querySelector('.star-animation');
 
-function createStar() {
-  const star = document.createElement('div');
-  star.classList.add('star');
-  
-  // Satunnainen sijainti vaakasuunnassa
-  star.style.left = `${Math.random() * 100}vw`;
-  
-  // Satunnainen animaation kesto
-  const duration = Math.random() * 5 + 3; // 3-8 sekuntia
-  star.style.animationDuration = `${duration}s`;
+  function createDollarSign() {
+      if (!starAnimation) return;
 
-  // Satunnainen koko
-  const size = Math.random() * 2 + 1; // 1-3px
-  star.style.width = `${size}px`;
-  star.style.height = `${size}px`;
+      const dollar = document.createElement('div');
+      dollar.classList.add('star');
+      dollar.textContent = '$';
 
-  // Lisää tähti tähtianimaatio-elementtiin
-  starAnimation.appendChild(star);
+      // Satunnainen sijainti vaakasuunnassa
+      dollar.style.left = `${Math.random() * 100}vw`;
 
-  // Poista tähti, kun animaatio on valmis
-  setTimeout(() => {
-    star.remove();
-  }, duration * 1000);
-}
+      // Satunnainen syvyys z-akselilla
+      const zDepth = Math.random() * 200 - 100;
+      dollar.style.setProperty('--z-depth', `${zDepth}px`);
 
-// Luo tähtiä jatkuvasti
-setInterval(createStar, 100);
+      // Satunnainen koko
+      const size = `${Math.random() * 30 + 10}px`; // 10-50px
+      dollar.style.setProperty('--size', size);
+
+      // Satunnainen skaalaus
+      const scale = Math.random() * 0.6 + 0.4; // 0.4 - 1
+      dollar.style.setProperty('--scale', scale);
+
+      // Satunnainen kääntyminen (luo elävyyttä)
+      const rotate = `${Math.random() * 360}deg`;
+      dollar.style.setProperty('--rotate', rotate);
+
+      // Satunnainen animaation kesto
+      const duration = Math.random() * 5 + 3; // 3-8 sekuntia
+      dollar.style.animationDuration = `${duration}s`;
+
+      // Lisää elementti animaatioon
+      starAnimation.appendChild(dollar);
+
+      // Poista, kun animaatio on valmis
+      setTimeout(() => {
+          dollar.remove();
+      }, duration * 1000);
+  }
+
+  // Luo jatkuvasti uusia dollarimerkkejä
+  setInterval(createDollarSign, 150); // Pienempi arvo = enemmän dollareita
+});
+
+
+
 
 
 
