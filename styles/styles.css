@@ -1163,14 +1163,14 @@ section {
 
   #image {
     background: transparent;
-    height: 58vh;
-
+    height: 40vh;
+  
   }
 
   .left-header {
     width: 100vw;
-    margin-left: -4rem;
-    margin-bottom: -4rem;
+    margin-left: -3rem;
+    margin-bottom: -3rem;
   }
 
   .header-content {
