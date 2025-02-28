@@ -12,7 +12,7 @@
 
 :root {
   --color-primary: #000000;
-  --color-secondary: #00ff00;
+  --color-secondary: #ff3c00;
   --color-white: #FFFFFF;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -22,14 +22,14 @@
   --color-grey-4: #454e56;
   --color-grey-5: #1f201f;
   --color-grey-6: #12181b;
-  --color-blue-7: #00ff00;
+  --color-blue-7: #2f00ff;
   --br-sm-2: 14px;
   --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
 }
 
 .light-mode {
   --color-primary: #000000;
-  --color-secondary: #ff3c00;
+  --color-secondary: #2f00ff;
   --color-white: #ffffff;
   --color-black: #ffffff;
   --color-grey0: #f8f8f8;
@@ -191,16 +191,18 @@ section {
 #image {
   background: transparent;
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   margin-bottom: -13rem;
+  
 }
+
+
 
 
 #man {
   position: fixed;
   bottom: 0%;
   left: 0%;
-
 }
 
 
@@ -208,9 +210,9 @@ section {
 /* ETUSIVUN NIMI TYYLI */
 .name {
   font-family: "Oswald", serif;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
- 
+  
 }
 
 
@@ -267,6 +269,7 @@ section {
   box-shadow: var(--box-shadow-1);
   border: 2px solid;
   border-color: #ffffff;
+  
 }
 
 .controls .control i {
@@ -275,6 +278,7 @@ section {
   pointer-events: none;
   
 }
+
 
 .control:hover {
   scale: 0.85;
@@ -348,12 +352,12 @@ section {
 }
 
 .light-mode .theme-btn:hover {
-  background-color: var(--color-blue-7);
+  background-color: var(--color-orange-7);
   scale: 0.8;
 }
 
 .theme-btn:hover {
-  background-color: #ff3c00;
+  background-color: #2f00ff;
   scale: 0.8;
   
 }
@@ -1175,12 +1179,13 @@ section {
   #image {
     background: transparent;
     height: 40vh;
+    
   
   }
 
   .left-header {
     width: 100vw;
-    margin-left: -3rem;
+    margin-left: -3.5rem;
     margin-bottom: -3rem;
   }
 
@@ -1213,9 +1218,12 @@ section {
   .right-header {
     grid-row: 1;
     padding-right: 0rem !important;
-    width: 90%;
-    margin: 0 auto;
+    width: 10%;
+    text-align: center;
+    margin-right: 5rem;
+    
   }
+
   .right-header .name {
     font-size: 2.5rem !important;
     text-align: center;

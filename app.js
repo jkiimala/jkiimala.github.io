@@ -127,9 +127,11 @@ document.addEventListener("DOMContentLoaded", function() {
       "Continuous Improvement",
       "International Relations",
       "Responsive Web Design",
+      "e-Commerce Solutions",
       "Data Acquisition",
       "Plan-Do-Check-Act",
       "Lean Thinking",
+      "3D Modeling",
       "Artificial Intelligence"
     ];
     
