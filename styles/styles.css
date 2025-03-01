@@ -210,9 +210,7 @@ section {
 /* ETUSIVUN NIMI TYYLI */
 .name {
   font-family: "Oswald", serif;
-  font-weight: 500;
-  font-style: normal;
-  
+  font-weight: 200;
 }
 
 
@@ -1179,14 +1177,14 @@ section {
   #image {
     background: transparent;
     height: 40vh;
-    
-  
+      
   }
 
   .left-header {
     width: 100vw;
     margin-left: -3.5rem;
     margin-bottom: -3rem;
+    
   }
 
   .header-content {
