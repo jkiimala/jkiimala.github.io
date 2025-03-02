@@ -1180,12 +1180,11 @@ section {
     background: transparent;
     height: 40vh;
     
-      
   }
 
   .left-header {
-    width: 100vw;
-    margin-left: -2.5rem;
+    max-height: fit-content;
+    
     margin-bottom: -3rem;
     
   }
@@ -1366,8 +1365,19 @@ section {
   
   .right-header .name {
     text-align: center;
+    max-height: fit-content;
+    margin-left: 2rem;
   }
 
+  #animatedText {
+    max-height: fit-content;
+    margin-left: 2rem;
+  }
+
+  .textHead {
+    max-height: fit-content;
+    margin-left: 2rem;
+  }
  
   .contact-content-con {
     flex-direction: flex;
