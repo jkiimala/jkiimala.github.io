@@ -191,7 +191,7 @@ section {
 
 #image {
   background: transparent;
-  width: 100%;
+  width: 50vw;
   height: 100vh;
   margin-left: 0rem;
 }
