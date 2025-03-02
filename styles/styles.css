@@ -1214,7 +1214,7 @@ section {
     
   }
 
-  
+    
   .right-header {
     grid-row: 1;
     padding-right: 0rem !important;
@@ -1543,14 +1543,17 @@ section {
   .right-header .name {
     text-align: center;
     margin-right: 2rem;
+    
   }
 
   .textHead {
-    margin-right: 2rem;
+    margin-right: 0rem;
+    margin-left: 0rem;
   }
 
   #animatedText {
-    margin-right: 2rem;
+    margin-right: 0rem;
+    margin-left: 0rem;
   }
 
   
