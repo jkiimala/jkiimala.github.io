@@ -1178,14 +1178,15 @@ section {
 
   #image {
     background: transparent;
-    height: 30vh;
+    height: 48vh;
     
   }
 
   .left-header {
     max-height: fit-content;
-    
-    margin-bottom: -3rem;
+    margin-left: -5rem;
+    margin-right: -5rem;
+    margin-bottom: -5rem;
     
   }
 
