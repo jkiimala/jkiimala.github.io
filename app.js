@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const dollar = document.createElement('div');
       dollar.classList.add('star');
-      dollar.textContent = '€';
+      dollar.textContent = '$';
 
       // Satunnainen sijainti vaakasuunnassa
       dollar.style.left = `${Math.random() * 100}vw`;
@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
       dollar.style.setProperty('--z-depth', `${zDepth}px`);
 
       // Satunnainen koko
-      const size = `${Math.random() * 20 + 5}px`; // 10-50px
+      const size = `${Math.random() * 40 + 5}px`; // 10-50px
       dollar.style.setProperty('--size', size);
 
       // Satunnainen skaalaus
@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Luo jatkuvasti uusia dollarimerkkejä
-  setInterval(createDollarSign, 150); // Pienempi arvo = enemmän dollareita
+  setInterval(createDollarSign, 200); // Pienempi arvo = enemmän dollareita
 });
 
 

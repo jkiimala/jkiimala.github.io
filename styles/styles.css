@@ -81,7 +81,7 @@ h2 {
   font-size: var(--size);
   color: #ffffff; /* Kirkkaan vihreä */
   font-weight: bold;
-  text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 15px #009900; /* Loistava efekti */
+  text-shadow: 0 0 5px var(--color-secondary), 0 0 10px var(--color-secondary), 0 0 15px var(--color-secondary); /* Loistava efekti */
   animation: moveUp linear infinite;
   transform-origin: center;
   white-space: nowrap;
