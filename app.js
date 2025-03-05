@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const dollar = document.createElement('div');
       dollar.classList.add('star');
-      dollar.textContent = '$';
+      dollar.textContent = '₿';
 
       // Satunnainen sijainti vaakasuunnassa
       dollar.style.left = `${Math.random() * 100}vw`;
