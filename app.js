@@ -26,52 +26,53 @@ function navigateToBlogs(event) {
     })
 })();
 
+
 // tähtianimaatio //
 document.addEventListener("DOMContentLoaded", () => {
-  const starAnimation = document.querySelector('.star-animation');
-
-  function createDollarSign() {
-      if (!starAnimation) return;
-
-      const dollar = document.createElement('div');
-      dollar.classList.add('star');
-      dollar.textContent = '₿';
-
-      // Satunnainen sijainti vaakasuunnassa
-      dollar.style.left = `${Math.random() * 100}vw`;
-
-      // Satunnainen syvyys z-akselilla
-      const zDepth = Math.random() * 200 - 100;
-      dollar.style.setProperty('--z-depth', `${zDepth}px`);
-
-      // Satunnainen koko
-      const size = `${Math.random() * 40 + 5}px`; // 10-50px
-      dollar.style.setProperty('--size', size);
-
-      // Satunnainen skaalaus
-      const scale = Math.random() * 0.8 + 0.4; // 0.4 - 1
-      dollar.style.setProperty('--scale', scale);
-
-      // Satunnainen kääntyminen (luo elävyyttä)
-      const rotate = `${Math.random() * 360}deg`;
-      dollar.style.setProperty('--rotate', rotate);
-
-      // Satunnainen animaation kesto
-      const duration = Math.random() * 5 + 3; // 3-8 sekuntia
-      dollar.style.animationDuration = `${duration}s`;
-
-      // Lisää elementti animaatioon
-      starAnimation.appendChild(dollar);
-
-      // Poista, kun animaatio on valmis
-      setTimeout(() => {
-          dollar.remove();
-      }, duration * 1000);
-  }
-
-  // Luo jatkuvasti uusia dollarimerkkejä
-  setInterval(createDollarSign, 200); // Pienempi arvo = enemmän dollareita
-});
+    const starAnimation = document.querySelector('.star-animation');
+  
+    function createSymbol() {
+        if (!starAnimation) return;
+  
+        const symbol = document.createElement('div');
+        symbol.classList.add('star');
+  
+        // Satunnaisesti joko $ tai €
+        symbol.textContent = Math.random() < 0.2 ? '$' : '€';
+  
+        // Satunnainen sijainti vaakasuunnassa
+        symbol.style.left = `${Math.random() * 100}vw`;
+  
+        // Satunnainen syvyys z-akselilla
+        const zDepth = Math.random() * 800 - 50;
+        symbol.style.setProperty('--z-depth', `${zDepth}px`);
+  
+        // Satunnainen koko
+        const size = `${Math.random() * 40 + 5}px`; // 5-45px
+        symbol.style.setProperty('--size', size);
+  
+        // Satunnainen skaalaus
+        const scale = Math.random() * 0.8 + 0.3; // 0.4 - 1
+        symbol.style.setProperty('--scale', scale);
+  
+        // Satunnainen animaation kesto
+        const duration = Math.random() * 7 + 5; // 3-8 sekuntia
+        symbol.style.animationDuration = `${duration}s`;
+  
+        // Lisää elementti animaatioon
+        starAnimation.appendChild(symbol);
+  
+        // Poista, kun animaatio on valmis
+        setTimeout(() => {
+            symbol.remove();
+        }, duration * 1000);
+    }
+  
+    // Luo jatkuvasti uusia symboleita ($ tai €)
+    setInterval(createSymbol, 200); // Pienempi arvo = enemmän merkkejä
+  });
+  
+  
 
 
 

@@ -62,8 +62,9 @@ h2 {
   letter-spacing: 0.1cap;
 }
 
-/* etusivun tähtianimaatio */
 
+
+/* Etusivun tähtianimaatio ($ & €) */
 .star-animation {
   position: fixed;
   top: 0;
@@ -79,28 +80,35 @@ h2 {
 .star {
   position: absolute;
   font-size: var(--size);
-  color: #ffffff; /* Kirkkaan vihreä */
+  color: #ffffff; /* Säilytetään värit */
   font-weight: bold;
-  text-shadow: 0 0 5px var(--color-secondary), 0 0 10px var(--color-secondary), 0 0 15px var(--color-secondary); /* Loistava efekti */
-  animation: moveUp linear infinite;
-  transform-origin: center;
   white-space: nowrap;
   opacity: 0;
+  transform-origin: center;
+  
+  /* Hohtoefekti */
+  text-shadow: 0 0 5px var(--color-secondary), 0 0 10px var(--color-secondary), 0 0 15px var(--color-secondary);
+
+  /* Animaatiot (liike ylös + pyöriminen) */
+  animation: moveUp linear infinite, spin linear infinite;
 }
 
+/* Merkit liikkuvat alhaalta ylös */
 @keyframes moveUp {
   0% {
-    transform: translate3d(0, 100vh, var(--z-depth)) scale(var(--scale)) rotate(var(--rotate));
+    transform: translate3d(0, 100vh, var(--z-depth)) scale(var(--scale));
     opacity: 0;
   }
-  20% {
+  10% {
     opacity: 1;
   }
   100% {
-    transform: translate3d(0, -10vh, var(--z-depth)) scale(var(--scale)) rotate(var(--rotate));
+    transform: translate3d(0, -10vh, var(--z-depth)) scale(var(--scale));
     opacity: 0;
   }
 }
+
+
 
 
 
