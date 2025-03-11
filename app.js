@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
         symbol.classList.add('star');
   
         // Satunnaisesti joko $ tai €
-        symbol.textContent = Math.random() < 0.2 ? '$' : '€';
+        symbol.textContent = Math.random() < 0.8 ? '$' : '€';
   
         // Satunnainen sijainti vaakasuunnassa
         symbol.style.left = `${Math.random() * 100}vw`;
@@ -54,6 +54,9 @@ document.addEventListener("DOMContentLoaded", () => {
         // Satunnainen skaalaus
         const scale = Math.random() * 0.8 + 0.3; // 0.4 - 1
         symbol.style.setProperty('--scale', scale);
+
+        const spinDirection = Math.random() < 0.5 ? 360 : -360;
+        symbol.style.setProperty('--spin-dir', `${spinDirection}deg`);
   
         // Satunnainen animaation kesto
         const duration = Math.random() * 7 + 5; // 3-8 sekuntia
@@ -72,7 +75,19 @@ document.addEventListener("DOMContentLoaded", () => {
     setInterval(createSymbol, 200); // Pienempi arvo = enemmän merkkejä
   });
   
-  
+
+// ETUSIVUN KUVAN VÄRI VIHREÄKSI //
+
+document.addEventListener("DOMContentLoaded", function () {
+    const button = document.querySelector(".theme-btn");
+    const image = document.querySelector("#image"); // Haetaan kuva
+
+    button.addEventListener("click", function () {
+        image.classList.toggle("color-changed"); // Lisää/poista luokka
+    });
+});
+
+
 
 
 
