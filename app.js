@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
         symbol.style.setProperty('--z-depth', `${zDepth}px`);
   
         // Satunnainen koko
-        const size = `${Math.random() * 40 + 5}px`; // 5-45px
+        const size = `${Math.random() * 40 + 15}px`; // 5-45px
         symbol.style.setProperty('--size', size);
   
         // Satunnainen skaalaus
