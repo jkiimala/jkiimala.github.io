@@ -214,15 +214,9 @@ section {
   width: 50vw;
   height: 100vh;
   margin-left: 0rem;
+  margin-bottom: -6rem;
   filter: drop-shadow(20px 20px 100px var(--color-secondary));
 }
-
-/* kuvan väri vihreäksi */
-.color-changed {
-  filter: hue-rotate(120deg); /* Muuttaa punaisen vihreäksi */
-  transition: filter 0.5s ease-in-out; /* Pehmeä värimuutos */
-}
-
 
 
 #man {

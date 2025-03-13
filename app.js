@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
         symbol.classList.add('star');
   
         // Satunnaisesti joko $ tai €
-        symbol.textContent = Math.random() < 0.8 ? '$' : '€';
+        symbol.textContent = Math.random() < 0.5 ? '$' : '€';
   
         // Satunnainen sijainti vaakasuunnassa
         symbol.style.left = `${Math.random() * 100}vw`;
@@ -75,22 +75,6 @@ document.addEventListener("DOMContentLoaded", () => {
     setInterval(createSymbol, 200); // Pienempi arvo = enemmän merkkejä
   });
   
-
-// ETUSIVUN KUVAN VÄRI VIHREÄKSI //
-
-document.addEventListener("DOMContentLoaded", function () {
-    const button = document.querySelector(".theme-btn");
-    const image = document.querySelector("#image"); // Haetaan kuva
-
-    button.addEventListener("click", function () {
-        image.classList.toggle("color-changed"); // Lisää/poista luokka
-    });
-});
-
-
-
-
-
 
 
 
