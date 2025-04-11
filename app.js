@@ -75,6 +75,19 @@ document.addEventListener("DOMContentLoaded", () => {
     setInterval(createSymbol, 200); // Pienempi arvo = enemmän merkkejä
   });
   
+// eagle vaihto //
+const image = document.getElementById('main-image');  // Haetaan kuvaelementti, jolla on id "main-image"
+let isEagle2 = false;  // Seuraa kumpi kuva on esillä
+
+document.querySelector('.theme-btn').addEventListener('click', () => {
+    if (!isEagle2) {
+        image.src = 'img/eagle2.webp';  // Vaihda kuvan lähteeksi toinen kuva
+    } else {
+        image.src = 'img/eagle.webp';  // Vaihda takaisin alkuperäiseen kuvaan
+    }
+    isEagle2 = !isEagle2;  // Vaihda tilaa, jotta seuraavalla painalluksella voidaan vaihtaa kuva uudelleen
+});
+
 
 
 
