@@ -64,7 +64,7 @@ h2 {
 
 
 
-/* Etusivun tähtianimaatio ($ & €) */
+/* Etusivun tähtianimaatio ($ & €) 
 .star-animation {
   position: fixed;
   top: 0;
@@ -74,22 +74,22 @@ h2 {
   pointer-events: none;
   z-index: -1;
   perspective: 1000px;
-  background-color: #000; /* Tumma tausta tuo efektin esiin */
+  background-color: #000; /* Tumma tausta tuo efektin esiin 
 }
 
 .star {
   position: absolute;
   font-size: var(--size);
-  color: #ffffff; /* Säilytetään värit */
+  color: #ffffff; /* Säilytetään värit 
   font-weight: bold;
   white-space: nowrap;
   opacity: 0;
   transform-origin: center;
   
-  /* Hohtoefekti */
+  /* Hohtoefekti 
   text-shadow: 0 -5px 10px var(--color-secondary), 0 5px 10px var(--color-secondary), 0 5px 20px var(--color-secondary);
 
-  /* Animaatiot (liike ylös + pyöriminen) */
+  /* Animaatiot (liike ylös + pyöriminen) 
   animation: moveUp 5s linear infinite, spin 2s linear infinite;
 }
 
@@ -104,7 +104,7 @@ h2 {
   }
 }
 
-/* Merkit liikkuvat alhaalta ylös */
+/* Merkit liikkuvat alhaalta ylös 
 @keyframes moveUp {
   0% {
     transform: translate3d(0, 100vh, var(--z-depth)) scale(var(--scale));
