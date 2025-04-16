@@ -29,7 +29,7 @@
 
 .light-mode {
   --color-primary: #000000;
-  --color-secondary: #2478ff;
+  --color-secondary: #f3931f;
   --color-white: #ffffff;
   --color-black: #ffffff;
   --color-grey0: #f8f8f8;
@@ -226,7 +226,7 @@ section {
 .name {
   font-family: "Bebas Neue", serif;
   font-weight: 100;
-  
+  filter: drop-shadow(0px 0px 50px var(--color-secondary));
 }
 
 
@@ -265,6 +265,7 @@ section {
   align-items: center;
   justify-content: center;
   transform: translateY(-50%);
+  filter: drop-shadow(0px 20px 60px var(--color-secondary));
   
 }
 
@@ -371,7 +372,7 @@ section {
 }
 
 .theme-btn:hover {
-  background-color: #2478ff;
+  background-color: #f3931f;
   scale: 0.8;
   
 }
