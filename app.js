@@ -27,66 +27,20 @@ function navigateToBlogs(event) {
 })();
 
 
-// tähtianimaatio //
-document.addEventListener("DOMContentLoaded", () => {
-    const starAnimation = document.querySelector('.star-animation');
-  
-    function createSymbol() {
-        if (!starAnimation) return;
-  
-        const symbol = document.createElement('div');
-        symbol.classList.add('star');
-  
-        // Satunnaisesti joko $ tai €
-        symbol.textContent = Math.random() < 0.5 ? '€' : '$';
-  
-        // Satunnainen sijainti vaakasuunnassa
-        symbol.style.left = `${Math.random() * 100}vw`;
-  
-        // Satunnainen syvyys z-akselilla
-        const zDepth = Math.random() * 700 - 100;
-        symbol.style.setProperty('--z-depth', `${zDepth}px`);
-  
-        // Satunnainen koko
-        const size = `${Math.random() * 40 + 15}px`; // 5-45px
-        symbol.style.setProperty('--size', size);
-  
-        // Satunnainen skaalaus
-        const scale = Math.random() * 0.9 + 0.2; // 0.4 - 1
-        symbol.style.setProperty('--scale', scale);
 
-        const spinDirection = Math.random() < 0.5 ? 360 : -90;
-        symbol.style.setProperty('--spin-dir', `${spinDirection}deg`);
   
-        // Satunnainen animaation kesto
-        const duration = Math.random() * 7 + 4; // 3-8 sekuntia
-        symbol.style.animationDuration = `${duration}s`;
-  
-        // Lisää elementti animaatioon
-        starAnimation.appendChild(symbol);
-  
-        // Poista, kun animaatio on valmis
-        setTimeout(() => {
-            symbol.remove();
-        }, duration * 1000);
-    }
-  
-    // Luo jatkuvasti uusia symboleita ($ tai €)
-    setInterval(createSymbol, 200); // Pienempi arvo = enemmän merkkejä
-  });
-  
-// eagle vaihto //
-const image = document.getElementById('main-image');  // Haetaan kuvaelementti, jolla on id "main-image"
-let isEagle2 = false;  // Seuraa kumpi kuva on esillä
+// eagle vaihto 
+// const image = document.getElementById('main-image');  
+// let isEagle2 = false;  // 
 
-document.querySelector('.theme-btn').addEventListener('click', () => {
-    if (!isEagle2) {
-        image.src = 'img/eagle2.webp';  // Vaihda kuvan lähteeksi toinen kuva
-    } else {
-        image.src = 'img/eagle.webp';  // Vaihda takaisin alkuperäiseen kuvaan
-    }
-    isEagle2 = !isEagle2;  // Vaihda tilaa, jotta seuraavalla painalluksella voidaan vaihtaa kuva uudelleen
-});
+// document.querySelector('.theme-btn').addEventListener('click', () => {
+//    if (!isEagle2) {
+//        image.src = 'img/eagle2.webp';  
+//    } else {
+//        image.src = 'img/eagle.webp';  
+//    }
+//    isEagle2 = !isEagle2;  
+//}); 
 
 
 
@@ -139,12 +93,10 @@ document.addEventListener("DOMContentLoaded", function() {
     const texts = [
       "Continuous Improvement",
       "International Relations",
-      "Responsive Web Design",
-      "e-Commerce Solutions",
       "Data Acquisition",
       "Plan-Do-Check-Act",
       "Lean Thinking",
-      "3D Modeling",
+      "Detail Orientation",
       "Artificial Intelligence"
     ];
     
