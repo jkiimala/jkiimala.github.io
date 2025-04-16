@@ -29,7 +29,7 @@
 
 .light-mode {
   --color-primary: #000000;
-  --color-secondary: #1eff00;
+  --color-secondary: #2478ff;
   --color-white: #ffffff;
   --color-black: #ffffff;
   --color-grey0: #f8f8f8;
@@ -371,7 +371,7 @@ section {
 }
 
 .theme-btn:hover {
-  background-color: #1eff00;
+  background-color: #2478ff;
   scale: 0.8;
   
 }
