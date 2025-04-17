@@ -27,24 +27,6 @@ function navigateToBlogs(event) {
 })();
 
 
-
-  
-// eagle vaihto 
-// const image = document.getElementById('main-image');  
-// let isEagle2 = false;  // 
-
-// document.querySelector('.theme-btn').addEventListener('click', () => {
-//    if (!isEagle2) {
-//        image.src = 'img/eagle2.webp';  
-//    } else {
-//        image.src = 'img/eagle.webp';  
-//    }
-//    isEagle2 = !isEagle2;  
-//}); 
-
-
-
-
 const carouselContainer = document.getElementById('carouselContainer');
 
 // Clone the carousel content to create a continuous loop
