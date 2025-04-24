@@ -756,6 +756,7 @@ section {
   margin-top: 2rem;
   margin-bottom: 2rem;
   margin-left: 0rem;
+  filter: drop-shadow(0px 10px 60px var(--color-secondary));
 }
 
 .contact-content-con .left-contact .contact-icon a {
@@ -775,6 +776,7 @@ section {
 
 .contact-content-con .left-contact .contact-icon a:hover {
   background-color: var(--color-secondary);
+  filter: drop-shadow(0px 10px 60px var(--color-secondary));
 }
 
 .contact-content-con .left-contact .contact-icon a:hover i {
