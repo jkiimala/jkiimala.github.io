@@ -146,17 +146,17 @@ section {
   height: 100vh;
   margin-left: 0rem;
   margin-bottom: 0rem;
-  animation: väriVaihto 1s infinite alternate;
+  animation: väriVaihto 5s infinite alternate;
   filter: hue-rotate(0deg);
 
 }
 
 @keyframes väriVaihto {
   from {
-    filter: hue-rotate(360deg);
+    filter: hue-rotate(0deg);
   }
   to {
-    filter: hue-rotate(0deg);
+    filter: hue-rotate(360deg);
   }
 }
 
