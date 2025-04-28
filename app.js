@@ -27,6 +27,23 @@ function navigateToBlogs(event) {
 })();
 
 
+// VÄRINVAIHTO 
+const themeBtn = document.querySelector('.theme-btn');
+const image = document.getElementById('image');
+
+let toggled = false; // Muuttuja joka kertoo onko vihreä vai punainen
+
+themeBtn.addEventListener('click', () => {
+    if (!toggled) {
+        image.style.filter = 'hue-rotate(90deg)'; // Muutetaan vihreäksi
+    } else {
+        image.style.filter = 'hue-rotate(0deg)'; // Palautetaan punaiseksi
+    }
+    toggled = !toggled; // Vaihdetaan tila
+});
+
+
+// SKILLS KARUSELLI
 const carouselContainer = document.getElementById('carouselContainer');
 
 // Clone the carousel content to create a continuous loop
