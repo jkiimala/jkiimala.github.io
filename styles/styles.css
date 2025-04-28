@@ -146,8 +146,8 @@ section {
   height: 100vh;
   margin-left: 0rem;
   margin-bottom: 0rem;
-  animation: väriVaihto 5s infinite alternate;
-  filter: hue-rotate(0deg);
+  /*animation: väriVaihto 6s infinite alternate;
+  filter: hue-rotate(0deg); */
 
 }
 
@@ -156,7 +156,7 @@ section {
     filter: hue-rotate(0deg);
   }
   to {
-    filter: hue-rotate(360deg);
+    filter: hue-rotate(180deg);
   }
 }
 
@@ -212,7 +212,7 @@ section {
   align-items: center;
   justify-content: center;
   transform: translateY(-50%);
-    
+  
 }
 
 
@@ -421,7 +421,6 @@ section {
   letter-spacing: -0.1rem;
   align-content: center;
   text-align: center;
-  
   margin-top: 2rem;
   padding: 2rem 0;
   position: relative;
@@ -1115,7 +1114,7 @@ section {
 
   .left-header {
     margin-right: -6rem;
-    margin-left: -5rem;
+    margin-left: -4rem;
     margin-bottom: -5rem;
     
   }
@@ -1282,8 +1281,11 @@ section {
 
   #image {
     background: transparent;
-    margin-left: 0; 
+    margin-left: 0rem; 
+    width: 55vw;
   }
+
+  
   
   .timeline {
     display: grid;
