@@ -151,6 +151,8 @@ section {
   transition: filter 0.5s ease;
 }
 
+
+/*
 @keyframes väriVaihto {
   from {
     filter: hue-rotate(0deg);
@@ -166,7 +168,7 @@ section {
   left: 0%;
 }
 
-
+*/
 
 /* ETUSIVUN NIMI TYYLI */
 .name {
