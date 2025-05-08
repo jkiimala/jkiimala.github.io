@@ -91,12 +91,13 @@ requestAnimationFrame(animateCarousel);
 document.addEventListener("DOMContentLoaded", function() {
     const texts = [
       "Continuous Improvement",
+      "Artificial Intelligence",
+      "Prompt Engineering",
       "International Relations",
       "Data Acquisition",
       "Plan-Do-Check-Act",
       "Lean Thinking",
       "Detail Orientation",
-      "Artificial Intelligence"
     ];
     
     let currentIndex = 0;
