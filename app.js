@@ -84,8 +84,6 @@ function animateCarousel(timestamp) {
 let lastTimestamp = null;
 requestAnimationFrame(animateCarousel);
 
-
-
 // etusivun teksti //
 
 document.addEventListener("DOMContentLoaded", function() {
