@@ -486,14 +486,14 @@ section {
 .timeline .timeline-item h5 {
   padding: 0 0;
   text-transform: uppercase;
-  font-size:medium;
+  font-size:small;
   font-weight: 500;
-  height: 4rem;
+  height: 4.5rem;
 }
 .timeline .timeline-item h5 span {
   color: var(--color-grey-2);
   font-weight: 400;
-  font-size: smaller;
+  font-size:x-small;
   
 }
 
