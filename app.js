@@ -91,9 +91,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "Continuous Improvement",
       "Artificial Intelligence",
       "Prompt Engineering",
-      "International Relations",
+      "Vibe Coding",
       "Data Acquisition",
-      "Plan-Do-Check-Act",
       "Lean Thinking",
       "Detail Orientation",
     ];
