@@ -415,6 +415,7 @@ section {
   width: 4.5rem; /* Aseta leveys suhteessa containeriin */
   height: auto; /* Korkeus skaalautuu automaattisesti */
   object-fit: contain;
+  border-radius: 10%;
 }
 
 .stat-title { 
@@ -442,7 +443,7 @@ section {
 /*Timeline*/
 .timeline {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-gap: 2rem; 
 }
 
@@ -552,7 +553,7 @@ section {
 
 .portfolios {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-gap: 0.6rem;
   margin-top: 2rem;
 }
@@ -636,7 +637,7 @@ section {
 
 .blogs {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-gap: 0.6rem;
   margin-top: 2rem;
 }
@@ -1288,7 +1289,7 @@ section {
   
   .timeline {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
     padding-bottom: 3rem;
   }
@@ -1359,13 +1360,13 @@ section {
   }
 
   .portfolios {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     padding-bottom: 6rem;
     margin-top: 1rem;
   }
 
   .blogs {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     padding-bottom: 6rem;
     margin-top: 1rem;
   }
