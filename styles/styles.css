@@ -1196,6 +1196,7 @@ section {
     padding-left: 0;
   }
 
+ 
   
 
   .timeline {
@@ -1478,6 +1479,8 @@ section {
     
   }
 
+  
+
   .textHead {
     margin-right: 0rem;
     margin-left: 0rem;
@@ -1640,7 +1643,7 @@ section {
 
 
   h5  {
-    margin-bottom: 0.5em;
+    margin-bottom: -2em;
     padding-top: 0;
   }
 
