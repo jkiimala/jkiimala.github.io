@@ -65,6 +65,7 @@ carouselContainer.addEventListener('mouseout', () => {
     scrollSpeed = 5; // Reset speed when hover ends
 });
 
+
 // Animate the carousel
 function animateCarousel(timestamp) {
     if (!lastTimestamp) {
