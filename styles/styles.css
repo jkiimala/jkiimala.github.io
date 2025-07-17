@@ -510,7 +510,7 @@ section {
 .timeline .timeline-item p {
   color: var(--color-grey-2);
   padding: 0.5em;
-  font-size: smaller;
+  font-size: x-small;
   line-height: 1.1rem;
 }
 
@@ -709,7 +709,7 @@ section {
   color: var(--color-grey-2);
   line-height: 1rem;
   padding-top: 0.3rem;
-  font-size: smaller;
+  font-size: x-small;
   height: 5rem;
 }
 
