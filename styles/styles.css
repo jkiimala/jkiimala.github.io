@@ -420,11 +420,12 @@ section {
 }
 
 .carousel-item img {
-  width: 4.5rem; /* Aseta leveys suhteessa containeriin */
+  width: 3.5rem; /* Aseta leveys suhteessa containeriin */
   height: auto; /* Korkeus skaalautuu automaattisesti */
   object-fit: contain;
   border-radius: 10%;
 }
+
 
 .stat-title { 
   font-size: 1.5em;
@@ -561,7 +562,7 @@ section {
 
 .portfolios {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   grid-gap: 0.6rem;
   margin-top: 2rem;
 }
@@ -645,11 +646,10 @@ section {
 
 .blogs {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   grid-gap: 0.6rem;
   margin-top: 2rem;
 }
-
 
 
 
@@ -675,7 +675,7 @@ section {
 
 .blogs .blog img {
   width: 100%;
-  height: 10rem;
+  height: 8rem;
   object-fit: cover;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
