@@ -33,25 +33,32 @@ function navigateToBlogs(event) {
 // SKILLS KARUSELLI
 const carouselContainer = document.getElementById('carouselContainer');
 
-// Clone the carousel content to create a continuous loop
+// Kloonaa karusellin sisältö jatkuvan silmukan luomiseksi
 const carouselItems = carouselContainer.innerHTML;
 carouselContainer.innerHTML += carouselItems;
 
-// Set up animation
+// Animaation asetukset
 let scrollLeft = 0;
-let scrollSpeed = 5; // Adjust the scroll speed as needed
+let scrollSpeed = 5; // Säädä vieritysnopeutta tarpeen mukaan
 
-// Hover functionality
+// Lisätään muuttujat skew-efektille
+let skew = 0;
+let targetSkew = 0;
+const skewFactor = 0.1; // Säädä tätä arvoa muuttaaksesi skew-efektin "pehmeyttä"
+
+// Hover-toiminnallisuus
 carouselContainer.addEventListener('mouseover', () => {
-    scrollSpeed = 20; // Increase speed on hover
+    scrollSpeed = 20; // Lisää nopeutta hoverilla
+    targetSkew = -20; // Aseta skew-arvo, kun hiiri on päällä (esim. 10 astetta)
 });
 
 carouselContainer.addEventListener('mouseout', () => {
-    scrollSpeed = 5; // Reset speed when hover ends
+    scrollSpeed = 5; // Palauta nopeus, kun hover päättyy
+    targetSkew = 0; // Palauta skew-arvo nollaan, kun hiiri poistuu
 });
 
 
-// Animate the carousel
+// Animoi karuselli
 function animateCarousel(timestamp) {
     if (!lastTimestamp) {
         lastTimestamp = timestamp;
@@ -60,11 +67,17 @@ function animateCarousel(timestamp) {
     const deltaTime = timestamp - lastTimestamp;
     lastTimestamp = timestamp;
 
-    scrollLeft += scrollSpeed * deltaTime / 60; // Normalize speed
+    scrollLeft += scrollSpeed * deltaTime / 60; // Normalisoi nopeus
     if (scrollLeft >= carouselContainer.scrollWidth / 2) {
         scrollLeft = 0;
     }
-    carouselContainer.style.transform = `translateX(-${scrollLeft}px)`;
+
+    // Lasketaan nykyinen skew-arvo pehmeästi
+    const skewDifference = targetSkew - skew;
+    skew += skewDifference * skewFactor;
+
+    // Yhdistetään translateX ja skewX transform-ominaisuuteen
+    carouselContainer.style.transform = `translateX(-${scrollLeft}px) skewX(${skew}deg)`;
 
     requestAnimationFrame(animateCarousel);
 }
