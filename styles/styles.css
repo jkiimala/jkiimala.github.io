@@ -383,13 +383,13 @@ section {
   overflow: hidden;
   position: relative;
   filter: drop-shadow(0px 10px 60px var(--color-secondary));
+  -webkit-box-reflect: below -6px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
 }
 
 
 .carousel-container {
   /* Prevent logos from wrapping to the next line */
   white-space: nowrap;
-  
 }
 
 .carousel-item {
@@ -397,8 +397,6 @@ section {
   min-width: calc(100% / var(--items-per-page));
   box-sizing: border-box;
   text-align: center;
-  
-  
 }
 
 .carousel-item img {
@@ -406,7 +404,7 @@ section {
   height: auto; /* Korkeus skaalautuu automaattisesti */
   object-fit: contain;
   border-radius: 10%;
-  
+  transform: skew(-3deg);
 }
 
 
@@ -423,7 +421,7 @@ section {
   position: relative;
 }
 
-.stat-title::before {
+/* .stat-title::before {
   content: "";
   position: absolute;
   left: 50%;
@@ -432,7 +430,7 @@ section {
   height: 1px;
   background-color: var(--color-grey-5);
   transform: translateX(-50%);
-}
+} */
 
 /*Timeline*/
 .timeline {
