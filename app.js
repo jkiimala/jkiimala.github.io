@@ -39,22 +39,33 @@ carouselContainer.innerHTML += carouselItems;
 
 // Animaation asetukset
 let scrollLeft = 0;
-let scrollSpeed = 5; // Säädä vieritysnopeutta tarpeen mukaan
+const normalSpeed = 5; // Normaali vieritysnopeus
+const hoverSpeed = 20; // Vieritysnopeus hoverilla
+let scrollSpeed = normalSpeed;
 
-// Lisätään muuttujat skew-efektille
+// Muuttujat skew-efektille
 let skew = 0;
 let targetSkew = 0;
-const skewFactor = 0.1; // Säädä tätä arvoa muuttaaksesi skew-efektin "pehmeyttä"
+
+// Muuttujat motion blur -efektille
+let blurValue = 0;
+const maxBlur = 3; // Maksimisumennus pikseleinä (säädä tarvittaessa)
+let targetBlur = 0;
+
+// Yhteinen pehmennyskerroin efekteille
+const effectFactor = 0.1;
 
 // Hover-toiminnallisuus
 carouselContainer.addEventListener('mouseover', () => {
-    scrollSpeed = 20; // Lisää nopeutta hoverilla
-    targetSkew = -20; // Aseta skew-arvo, kun hiiri on päällä (esim. 10 astetta)
+    scrollSpeed = hoverSpeed;
+    targetSkew = -20;
+    targetBlur = 1.5; // Aseta tavoitesumennus maksimiin hoverilla
 });
 
 carouselContainer.addEventListener('mouseout', () => {
-    scrollSpeed = 5; // Palauta nopeus, kun hover päättyy
-    targetSkew = 0; // Palauta skew-arvo nollaan, kun hiiri poistuu
+    scrollSpeed = normalSpeed;
+    targetSkew = 0;
+    targetBlur = 0; // Palauta tavoitesumennus nollaan
 });
 
 
@@ -74,10 +85,16 @@ function animateCarousel(timestamp) {
 
     // Lasketaan nykyinen skew-arvo pehmeästi
     const skewDifference = targetSkew - skew;
-    skew += skewDifference * skewFactor;
+    skew += skewDifference * effectFactor;
 
-    // Yhdistetään translateX ja skewX transform-ominaisuuteen
+    // Lasketaan nykyinen blur-arvo pehmeästi
+    const blurDifference = targetBlur - blurValue;
+    blurValue += blurDifference * effectFactor;
+
+    // Asetetaan transform- ja filter-ominaisuudet
     carouselContainer.style.transform = `translateX(-${scrollLeft}px) skewX(${skew}deg)`;
+    carouselContainer.style.filter = `blur(${blurValue}px)`;
+
 
     requestAnimationFrame(animateCarousel);
 }
