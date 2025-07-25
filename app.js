@@ -69,6 +69,7 @@ carouselContainer.addEventListener('mouseout', () => {
 });
 
 
+
 // Animoi karuselli
 function animateCarousel(timestamp) {
     if (!lastTimestamp) {
