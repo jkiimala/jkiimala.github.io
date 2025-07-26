@@ -11,7 +11,7 @@
 }
 
 :root {
-  --color-primary: #111308;
+  --color-primary: #011d35;
   --color-secondary: #08c0f8;
   --color-white: #FFFFFF;
   --color-black: #000;
@@ -28,7 +28,7 @@
 }
 
 .light-mode {
-  --color-primary: #111308;
+  --color-primary: #011d35;
   --color-secondary: #8c17ec;
   --color-white: #ffffff;
   --color-black: #ffffff;
