@@ -12,7 +12,7 @@
 
 :root {
   --color-primary: #011d35;
-  --color-secondary: #f89808;
+  --color-secondary: #b408f8;
   --color-white: #FFFFFF;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -22,14 +22,14 @@
   --color-grey-4: #454e56;
   --color-grey-5: #1f201f;
   --color-grey-6: #12181b;
-  --color-blue-7: #2f00ff;
+  --color-blue-7: #00ff2a;
   --br-sm-2: 14px;
   --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
 }
 
 .light-mode {
   --color-primary: #011d35;
-  --color-secondary: #8c17ec;
+  --color-secondary: #00ff2a;
   --color-white: #ffffff;
   --color-black: #ffffff;
   --color-grey0: #f8f8f8;
@@ -39,7 +39,7 @@
   --color-grey-4: #454e56;
   --color-grey-5: #1f201f;
   --color-grey-6: #ffffff;
-  --color-orange-7: #f89808;
+  --color-orange-7: #b408f8;
 }
 
 
@@ -312,7 +312,7 @@ section {
 }
 
 .theme-btn:hover {
-  background-color: #8c17ec;
+  background-color: #00ff2a;
   scale: 0.8;
   filter: drop-shadow(0px 10px 60px var(--color-secondary));
 }
@@ -1275,8 +1275,8 @@ section {
 
   #image {
     background: transparent;
-    margin-left: -1rem; 
-    width: 50vw;
+    margin-left: -4rem; 
+    width: 55vw;
   }
 
   
