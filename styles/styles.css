@@ -1167,7 +1167,7 @@ section {
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
-    background-color: var(--color-grey-5);
+    background-color: var(--color-secondary);
   }
   .controls .control {
     margin: 1rem 0.3rem;
