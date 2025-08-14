@@ -79,7 +79,7 @@ function animateCarousel(timestamp) {
     const deltaTime = timestamp - lastTimestamp;
     lastTimestamp = timestamp;
 
-    scrollLeft += scrollSpeed * deltaTime / 60; // Normalisoi nopeus
+    scrollLeft += scrollSpeed * deltaTime / 100; // Normalisoi nopeus
     if (scrollLeft >= carouselContainer.scrollWidth / 2) {
         scrollLeft = 0;
     }
