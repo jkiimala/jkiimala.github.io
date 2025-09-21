@@ -109,12 +109,12 @@ requestAnimationFrame(animateCarousel);
 document.addEventListener("DOMContentLoaded", function() {
     const texts = [
       "Continuous Improvement",
-      "Artificial Intelligence",
-      "Prompt Engineering",
+      "Nordic Flavors",
+      "Untamed and True",
       "Creative Mindset",
-      "Data Acquisition",
-      "Lean Thinking",
-      "Detail Orientation",
+      "From Wilderness to Plate",
+      "Soulful Cuisine",
+      "Timeless Taste",
     ];
     
     let currentIndex = 0;
