@@ -108,7 +108,7 @@ requestAnimationFrame(animateCarousel);
 
 document.addEventListener("DOMContentLoaded", function() {
     const texts = [
-      "Continuous Improvement",
+      "High Quality & Organic",
       "Nordic Flavors",
       "Untamed and True",
       "Creative Mindset",
