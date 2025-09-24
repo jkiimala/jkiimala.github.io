@@ -108,13 +108,13 @@ requestAnimationFrame(animateCarousel);
 
 document.addEventListener("DOMContentLoaded", function() {
     const texts = [
-      "High Quality & Organic",
-      "Nordic Flavors",
+      "Digital Success Story",
+      "Building Experiences",
       "Untamed and True",
       "Creative Mindset",
-      "From Wilderness to Plate",
-      "Soulful Cuisine",
-      "Timeless Taste",
+      "Dynamic Projects",
+      "Infectious Enthusiasm",
+      "Crafting Web Solutions",
     ];
     
     let currentIndex = 0;
