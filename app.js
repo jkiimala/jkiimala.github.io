@@ -108,13 +108,13 @@ requestAnimationFrame(animateCarousel);
 
 document.addEventListener("DOMContentLoaded", function() {
     const texts = [
-      "Digital Success Story",
+      "Modern Designs",
       "Building Experiences",
       "Untamed and True",
       "Creative Mindset",
       "Dynamic Projects",
       "Infectious Enthusiasm",
-      "Crafting Web Solutions",
+      "Responsive Solutions",
     ];
     
     let currentIndex = 0;
