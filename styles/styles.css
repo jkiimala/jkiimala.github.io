@@ -86,9 +86,10 @@ h2 {
 }
 
 .textHead {
+  font-size: x-small;
   text-align: center;
   line-height: 1.6;
-  padding-top: 2rem;
+  padding-top: 1.8rem;
   font-family: "Roboto", sans-serif;
   font-style: italic;
   letter-spacing: 0.2rem;
