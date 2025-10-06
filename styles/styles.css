@@ -76,7 +76,6 @@ h2 {
 .text {
   font-size: 1.4em;
   font-weight: 400;
-  padding-top: 0.5rem;
   letter-spacing: -0.1rem;
   align-content: center;
   justify-content: center;
@@ -86,10 +85,10 @@ h2 {
 }
 
 .textHead {
-  font-size: x-small;
+  font-size: small;
   text-align: center;
   line-height: 1.6;
-  padding-top: 1.8rem;
+  padding-top: 1.5rem;
   font-family: "Roboto", sans-serif;
   font-style: italic;
   letter-spacing: 0.2rem;
