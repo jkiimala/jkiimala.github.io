@@ -108,12 +108,11 @@ requestAnimationFrame(animateCarousel);
 
 document.addEventListener("DOMContentLoaded", function() {
     const texts = [
-      "Modern Designs",
-      "Building Experiences",
-      "Untamed and True",
+      "Code with Intelligence",
+      "AI-Driven Design",
       "Creative Mindset",
       "Dynamic Projects",
-      "Infectious Enthusiasm",
+      "Next-Level Development",
       "Responsive Solutions",
     ];
     

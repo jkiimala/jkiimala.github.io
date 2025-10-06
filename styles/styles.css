@@ -74,8 +74,9 @@ h2 {
 }
 
 .text {
-  font-size: 1.5em;
+  font-size: 1.4em;
   font-weight: 400;
+  padding-top: 0.5rem;
   letter-spacing: -0.1rem;
   align-content: center;
   justify-content: center;
@@ -1473,7 +1474,6 @@ section {
   .right-header .name {
     text-align: center;
     margin-right: 2rem;
-    
   }
 
   
