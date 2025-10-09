@@ -72,6 +72,66 @@ h2 {
   text-align: center;
 }
 
+/* SWIPE EFEKTI */
+
+.text-swipe {
+    display: inline-block;
+    /* Alkuperäinen, ei-animointu teksti näyttää valkoiselta/harmaalta */
+    color: #ffffff;
+    position: relative; /* Tarvitaan pseudo-elementin sijoitteluun */
+    overflow: hidden; /* Estää gradientin näkymästä elementin ulkopuolelle */
+}
+
+.text-swipe::before {
+    content: attr(data-text); /* Käytä HTML-tekstiä pseudo-elementin sisällössä */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Piilotetaan oletuksena ja näytetään kun data-text attribuutti on asetettu */
+    opacity: 0; 
+    transition: opacity 0s; /* Nopea vaihto, jotta välkettä ei tule */
+
+    /* Luodaan taustagradientti, joka toimii "kiiltona" */
+    background: linear-gradient(
+        90deg,
+        transparent 0%,
+        #fd3b06 30%, /* Kiiltokohta */
+        #00ff2a 50%, /* Kiiltävämpi kohta */
+        rgb(255, 255, 255) 70%,
+        transparent 100%
+    );
+    background-size: 200% 100%; /* Gradientti on kaksi kertaa leveämpi kuin elementti */
+    background-position: -100% 0; /* Aloitetaan gradientti vasemmasta laidasta piilossa */
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; /* Teksti läpinäkyväksi, jotta gradientti näkyy */
+    
+    /* Animaatio */
+    animation: swipe-shine 1.5s linear infinite; /* Kesto, ajoitusfunktio, toisto */
+}
+
+/* Voit muuttaa animaation kestoa yksittäisille elementeille luokilla */
+.text-swipe.short-animation::before {
+    animation-duration: 1.5s; /* Lyhyempi animaation kesto */
+}
+
+/* Keyframes animaatiolle */
+@keyframes swipe-shine {
+    0% {
+        background-position: -100% 0; /* Aloita vasemmalta, piilossa */
+        opacity: 1; /* Aseta näkyväksi animaation alussa */
+    }
+    100% {
+        background-position: 100% 0; /* Siirrä oikealle, piilossa */
+        opacity: 1; /* Pidä näkyvänä animaation ajan */
+    }
+}
+
+/* SWIPE LOPPU */
+
 .text {
   font-size: 1.2em;
   font-weight: 400;

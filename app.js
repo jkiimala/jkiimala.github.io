@@ -103,6 +103,18 @@ function animateCarousel(timestamp) {
 let lastTimestamp = null;
 requestAnimationFrame(animateCarousel);
 
+// SHINY SWIPE TEXT //
+
+document.addEventListener('DOMContentLoaded', () => {
+    const textSwipeElements = document.querySelectorAll('.text-swipe');
+
+    textSwipeElements.forEach(element => {
+        // Aseta elementin HTML-sisältö data-text attribuuttiin
+        // Jotta ::before pseudo-elementti voi käyttää sitä
+        element.setAttribute('data-text', element.textContent);
+    });
+});
+
 
 // etusivun teksti //
 
