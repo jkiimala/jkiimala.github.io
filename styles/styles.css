@@ -121,11 +121,11 @@ h2 {
 /* Keyframes animaatiolle */
 @keyframes swipe-shine {
     0% {
-        background-position: -100% 0; /* Aloita vasemmalta, piilossa */
+        background-position: 100% 0; /* Aloita vasemmalta, piilossa */
         opacity: 1; /* Aseta näkyväksi animaation alussa */
     }
     100% {
-        background-position: 100% 0; /* Siirrä oikealle, piilossa */
+        background-position: -100% 0; /* Siirrä oikealle, piilossa */
         opacity: 1; /* Pidä näkyvänä animaation ajan */
     }
 }
