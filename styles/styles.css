@@ -132,6 +132,8 @@ h2 {
 
 /* SWIPE LOPPU */
 
+
+
 .text {
   font-size: 1.2em;
   font-weight: 400;
@@ -422,7 +424,7 @@ section {
 }
 
 .header-content .right-header .name {
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
 }
 
