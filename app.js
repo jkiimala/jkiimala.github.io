@@ -121,9 +121,9 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener("DOMContentLoaded", function() {
     const texts = [
       "Code with Intelligence",
-      "AI-Driven Design",
-      "Creative Mindset",
-      "Dynamic Projects",
+      "AI-Driven Designs",
+      "Creative Innovative Mindset",
+      "Dynamic Agile Projects",
       "Next-Level Development",
       "Responsive Solutions",
     ];
