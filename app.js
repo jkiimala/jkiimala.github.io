@@ -28,8 +28,6 @@ function navigateToBlogs(event) {
 
 
 
-
-
 // SKILLS KARUSELLI
 const carouselContainer = document.getElementById('carouselContainer');
 
