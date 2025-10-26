@@ -776,7 +776,7 @@ section {
 
 .contact-content-con .left-contact h4 {
   margin-top: 1rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-transform: uppercase;
 }
 .contact-content-con .left-contact p {
@@ -788,7 +788,7 @@ section {
 .left-contact span {
   font-size: smaller;
   text-transform: uppercase;
-  margin-top: 0.5rem;
+  margin-top: 0.2rem;
 }
 
 .contact-content-con .left-contact .contact-info .contact-item {
@@ -810,7 +810,7 @@ section {
 .contact-content-con .left-contact .contact-info .contact-item .icon i {
   display: flex;
   align-items: center;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .contact-content-con .left-contact .contact-icon {
