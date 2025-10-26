@@ -447,9 +447,8 @@ section {
 }
 
 .carousel {
-  width: 90%;
+  width: 93%;
   border-top-left-radius: 10px;
-  border-top-left-radius: 80px;
   border-top-right-radius: 80px;
   margin: 0 auto;
   overflow: hidden;
