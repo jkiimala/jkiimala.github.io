@@ -629,8 +629,8 @@ section {
 
 .portfolios .portfolio-item img {
   width: 100%;
-  height: 10rem;
-  object-fit: cover;
+  height: 8rem;
+  object-fit:inherit;
   border-radius: 5px;
   border-bottom: var(--color-secondary)solid 0.4rem;
 }
@@ -674,7 +674,7 @@ section {
   transition: all 0.4s ease-in-out;
 }
 .portfolios .portfolio-item .hover-items .icons .icon i {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: var(--color-white);
   margin: 0 1rem;
 }
@@ -686,7 +686,7 @@ section {
 }
 
 .portfolio-item:hover .hover-items {
-  opacity: 1;
+  opacity: 0.8;
   transform: scale(1);
 }
 
@@ -727,7 +727,7 @@ section {
 
 .blogs .blog img {
   width: 100%;
-  height: 8rem;
+  height: 7rem;
   object-fit: cover;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -1474,7 +1474,7 @@ section {
   }
 
   .portfolios {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 
   .header-content .right-header {
@@ -1482,7 +1482,7 @@ section {
   }
 
   .blogs {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     padding-bottom: 6rem;
     margin-top: 2rem;
   }
