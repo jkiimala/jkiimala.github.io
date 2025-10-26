@@ -1298,6 +1298,13 @@ section {
     grid-template-columns: repeat(1, 1fr);
     padding-bottom: 6rem;
     margin-top: 1rem;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .blog {
+    width: 90%;
+    margin: 0 auto;
   }
 
   .blogs {
