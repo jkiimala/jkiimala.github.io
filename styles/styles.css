@@ -448,7 +448,9 @@ section {
 
 .carousel {
   width: 90%;
-  border-radius: 50px;
+  border-top-left-radius: 10px;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
@@ -603,8 +605,8 @@ section {
   width: 100%;
   height: 33%;
   object-fit: cover;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 80px;
   transition: transform 0.5s ease-in-out;
   border-bottom: 0.4rem solid var(--color-secondary);
 }
@@ -642,8 +644,8 @@ section {
 
 .portfolios {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 1.5rem;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 1rem;
   margin-top: 2rem;
 }
 
@@ -653,14 +655,15 @@ section {
 .portfolios .portfolio-item {
   position: relative;
   border-radius: 5px;
+  margin-bottom: 1rem;
 }
 
 .portfolios .portfolio-item img {
   width: 100%;
   height: 8rem;
   object-fit: cover;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 80px;
   border-bottom: var(--color-secondary)solid 0.4rem;
 }
 
@@ -671,8 +674,8 @@ section {
   position: absolute;
   left: 0;
   top: 0;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -728,15 +731,15 @@ section {
 .blogs {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-gap: 0.6rem;
+  grid-gap: 1rem;
   margin-top: 2rem;
 }
 
 
 
 .blogs .blog {
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 80px;
   position: relative;
   background-color: var(--color-grey-5);
   border-bottom-left-radius: 5px;
@@ -762,8 +765,8 @@ section {
   width: 100%;
   height: 7rem;
   object-fit: cover;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 80px;
   filter: grayscale(0%);
   transition: all 0.4s ease-in-out;
 }
