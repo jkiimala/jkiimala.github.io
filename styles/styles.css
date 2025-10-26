@@ -447,11 +447,36 @@ section {
 }
 
 .carousel {
-  width: 100%;
+  width: 70%;
+  border-radius: 50px;
+  margin: 0 auto;
   overflow: hidden;
   position: relative;
   filter: drop-shadow(0px 10px 60px var(--color-secondary));
   -webkit-box-reflect: below -6px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.2));
+}
+
+.carousel::before,
+.carousel::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  height: 95%;
+  width: 70px; /* Säädä fade-alueen leveyttä tarpeen mukaan */
+  pointer-events: none; /* Estää pseudoelementtejä häiritsemästä karusellin toimintaa */
+  z-index: 10; /* Varmistaa, että fade-efekti on karusellin päällä */
+}
+
+.carousel::before {
+  left: 0;
+  background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
+  /* Vaihda 'white' taustaväriin, joka vastaa karusellin taustaa */
+}
+
+.carousel::after {
+  right: 0;
+  background: linear-gradient(to left, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
+  /* Vaihda 'white' taustaväriin, joka vastaa karusellin taustaa */
 }
 
 
