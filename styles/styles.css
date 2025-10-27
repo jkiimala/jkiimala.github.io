@@ -1546,12 +1546,14 @@ section {
   object-fit: cover;
   display: flex; /* Voi auttaa sisällön tasaamisessa */
   flex-direction: column;
+  margin: 0 auto;
   }
 
   .blogs {
     grid-template-columns: repeat(4, 1fr);
     padding-bottom: 6rem;
     margin-top: 2rem;
+    margin: 0 auto;
   }
 
 /*
