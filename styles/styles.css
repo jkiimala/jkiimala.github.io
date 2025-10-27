@@ -779,6 +779,7 @@ section {
   border-width: 0.5rem;
   filter: grayscale(0%);
   transition: all 0.4s ease-in-out;
+  
 }
 
 .blog-text {
@@ -1538,6 +1539,11 @@ section {
 
   .header-content .right-header {
     padding-right: 9rem;
+  }
+
+  .blog img {
+  width: 100%;
+  object-fit: cover;
   }
 
   .blogs {
