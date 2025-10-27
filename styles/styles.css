@@ -664,7 +664,9 @@ section {
   height: 8rem;
   object-fit: cover;
   border-top-left-radius: 10px;
-  border-bottom-right-radius: 80px;
+  border-top-right-radius: 10px;
+  border-style: double;
+  border-width: 0.5rem;
   border-bottom: var(--color-secondary)solid 0.4rem;
 }
 
@@ -676,7 +678,7 @@ section {
   left: 0;
   top: 0;
   border-top-left-radius: 10px;
-  border-bottom-right-radius: 80px;
+  border-top-right-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -745,7 +747,7 @@ section {
 
 .blogs .blog {
   border-top-left-radius: 10px;
-  border-top-right-radius: 80px;
+  border-top-right-radius: 10px;
   position: relative;
   background-color: var(--color-grey-5);
   border-bottom-left-radius: 5px;
@@ -772,7 +774,9 @@ section {
   height: 7rem;
   object-fit: cover;
   border-top-left-radius: 10px;
-  border-top-right-radius: 80px;
+  border-top-right-radius: 10px;
+  border-style: double;
+  border-width: 0.5rem;
   filter: grayscale(0%);
   transition: all 0.4s ease-in-out;
 }
