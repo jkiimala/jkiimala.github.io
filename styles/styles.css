@@ -1534,7 +1534,7 @@ section {
   }
 
   .portfolios {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .header-content .right-header {
@@ -1549,7 +1549,7 @@ section {
   }
 
   .blogs {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     padding-bottom: 6rem;
     margin-top: 2rem;
   }
