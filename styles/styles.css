@@ -638,7 +638,6 @@ section {
 }
 
 
-
 .port-text {
   padding: 2rem 0;
   text-align: center;
@@ -1539,8 +1538,6 @@ section {
   .blog img {
   width: 100%;
   object-fit: cover;
-  display: flex; /* Voi auttaa sisällön tasaamisessa */
-  flex-direction: column;
   }
 
   .blogs {
