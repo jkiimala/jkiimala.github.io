@@ -222,7 +222,8 @@ section {
 #image:hover {
   transform: scale(0.9);
   transition: transform 1s ease-in;
-  
+  transform: rotate(3240deg);
+
 }
 
 
