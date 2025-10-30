@@ -12,7 +12,7 @@
 
 :root {
   --color-primary: #000000;
-  --color-secondary: #fd3b06;
+  --color-secondary: #e10102;
   --color-white: #FFFFFF;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -39,7 +39,7 @@
   --color-grey-4: #454e56;
   --color-grey-5: #1f201f;
   --color-grey-6: #ffffff;
-  --color-orange-7: #fd3b06;
+  --color-orange-7: #e10102;
 }
 
 
@@ -97,7 +97,7 @@ h2 {
     background: linear-gradient(
         90deg,
         transparent 0%,
-        #fd3b06 30%, /* Kiiltokohta */
+        #e10102 30%, /* Kiiltokohta */
         #00ff2a 50%, /* Kiiltävämpi kohta */
         rgb(0, 0, 0) 70%,
         transparent 100%
@@ -212,19 +212,19 @@ section {
 
 #image {
   background: transparent;
-  width: 50vw;
+  width: 60vw;
   height: 100vh;
   margin-left: 0rem;
   margin-bottom: 0rem;
   transition: transform 1s ease-out;
 }
 
-#image:hover {
+/*#image:hover {
   transform: scale(0.9);
   transition: transform 1s ease-in;
   transform: rotate(3240deg);
 
-}
+}*/
 
 
 /* ETUSIVUN NIMI TYYLI */
@@ -1215,15 +1215,18 @@ section {
 
   #image {
     background: transparent;
-    height: 50vh;
-
-    
+    height: 42vh;
+    max-width: fit-content;
+        
   }
 
+
   .left-header {
-    margin-right: 0rem;
-    margin-left: 0rem;
-    margin-bottom: -5rem; 
+    width: 100vw;
+    margin-left: -2rem;
+    margin-right: 0;
+    margin-bottom: -2rem; 
+
   }
 
   .header-content {
@@ -1396,8 +1399,8 @@ section {
 
   #image {
     background: transparent;
-    margin-left: -4rem; 
-    width: 55vw;
+    margin-left: 0rem; 
+    width: 60vw;
   }
 
   
