@@ -12,7 +12,7 @@
 
 :root {
   --color-primary: #000000;
-  --color-secondary: #e10102;
+  --color-secondary: #b7503c;
   --color-white: #FFFFFF;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -22,14 +22,14 @@
   --color-grey-4: #454e56;
   --color-grey-5: #1f201f;
   --color-grey-6: #12181b;
-  --color-blue-7: #00ff2a;
+  --color-blue-7: #fbff00;
   --br-sm-2: 14px;
   --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
 }
 
 .light-mode {
   --color-primary: #000000;
-  --color-secondary: #00ff2a;
+  --color-secondary: #fbff00;
   --color-white: #ffffff;
   --color-black: #ffffff;
   --color-grey0: #f8f8f8;
@@ -39,7 +39,7 @@
   --color-grey-4: #454e56;
   --color-grey-5: #1f201f;
   --color-grey-6: #ffffff;
-  --color-orange-7: #e10102;
+  --color-orange-7: #b7503c;
 }
 
 
@@ -97,8 +97,8 @@ h2 {
     background: linear-gradient(
         90deg,
         transparent 0%,
-        #e10102 30%, /* Kiiltokohta */
-        #00ff2a 50%, /* Kiiltävämpi kohta */
+        #b7503c 30%, /* Kiiltokohta */
+        #fbff00 50%, /* Kiiltävämpi kohta */
         rgb(0, 0, 0) 70%,
         transparent 100%
     );
@@ -380,7 +380,7 @@ section {
 }
 
 .theme-btn:hover {
-  background-color: #00ff2a;
+  background-color: #fbff00;
   scale: 0.8;
   filter: drop-shadow(0px 10px 60px var(--color-secondary));
 }
