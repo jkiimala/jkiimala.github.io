@@ -1220,6 +1220,9 @@ section {
         
   }
 
+  .name {
+    margin: 0 auto;
+  }
 
   .left-header {
     width: 100vw;
@@ -1597,15 +1600,21 @@ section {
   }
 
   .scene {
-   
-    margin-top: 1rem;   
+    margin-top: 1rem;
+    margin-left: -2rem;
+    margin-bottom: 1.5rem;   
   }
 
   .right-header .name {
     text-align: center;
-    margin-right: 2rem;
+    margin-left: -2rem;
+    margin-top: 4rem;
+    
   }
 
+  #main-image {
+    margin-left: 0.5rem;
+  }
   
 
   .textHead {
