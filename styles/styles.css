@@ -1268,6 +1268,8 @@ section {
     
   }
 
+  
+
   .right-header .name {
     font-size: 2.5rem !important;
     text-align: center;
@@ -1616,15 +1618,15 @@ section {
     text-align: center;
     margin-left: -2rem;
     margin-top: 4rem;
-    
   }
 
   #main-image {
     margin-left: 0.5rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
     width: 20rem;
     height: 20rem;
   }
+
   
 
   .textHead {
@@ -1750,7 +1752,7 @@ section {
     align-items: center;
   }
   .right-header .name {
-    font-size: 2.5rem !important;
+    font-size: 2rem !important;
     text-align: center;
     padding-top: 3rem;
   }
