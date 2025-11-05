@@ -1217,8 +1217,7 @@ section {
   #image {
     background: transparent;
     height: 45vh;
-    max-width: fit-content;
-        
+    max-width: fit-content;   
   }
 
   .name {
@@ -1620,8 +1619,11 @@ section {
     margin-top: 4rem;
   }
 
+
   #main-image {
-    margin-left: 0.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 2rem;
     width: 20rem;
     height: 20rem;
