@@ -1518,22 +1518,27 @@ section {
 }
 
 @media screen and (max-width: 1250px) {
-  .blogs {
-    
-    margin-top: 6rem;
-    
+  .blogs {  
+    margin-top: 6rem;   
   }
 
-  .scene {
-   
-    margin-top: 1rem;
-    
+  .scene {  
+    margin-top: 1rem;  
   }
+
+  #main-image {
+    margin-left: 5rem;
+    margin-top: 3rem;
+    width: 25rem;
+    height: 25rem;
+  }
+
 
   .right-header .name {
-    text-align: center;
-    
+    text-align: center; 
   }
+
+  
 
   .portfolios {
     grid-template-columns: repeat(3, 1fr);
@@ -1616,6 +1621,9 @@ section {
 
   #main-image {
     margin-left: 0.5rem;
+    margin-top: 4rem;
+    width: 20rem;
+    height: 20rem;
   }
   
 
