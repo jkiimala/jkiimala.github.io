@@ -120,10 +120,10 @@ document.addEventListener("DOMContentLoaded", function() {
     const texts = [
       "Code with Intelligence",
       "AI-Driven Designs",
-      "Creative Innovative Mindset",
+      "Creative & Innovative Mindset",
       "Dynamic Agile Projects",
       "Next-Level Development",
-      "Responsive Solutions",
+      "Complex 3D Models",
     ];
     
     let currentIndex = 0;
