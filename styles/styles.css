@@ -389,8 +389,7 @@ section {
 .header-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  min-height: 100vh;
-  
+  min-height: 100vh; 
 }
 
 
@@ -498,8 +497,7 @@ section {
   width: 3.5rem; /* Aseta leveys suhteessa containeriin */
   height: auto; /* Korkeus skaalautuu automaattisesti */
   object-fit: contain;
-  border-radius: 10%;
-  
+  border-radius: 10%; 
 }
 
 
@@ -516,7 +514,7 @@ section {
   position: relative;
 }
 
- .stat-title::before {
+.stat-title::before {
   content: "";
   position: absolute;
   left: 50%;
@@ -608,15 +606,15 @@ section {
   object-fit: cover;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  border-style: double;
-  border-width: 0.5rem;
+ 
+  /* border: 0.1em solid white; */
   transition: transform 0.5s ease-in-out;
   border-bottom: 0.4rem solid var(--color-secondary);
 }
 
 /* Zoom effect */
 .timeline .timeline-item img:hover {
-  transform: scale(1.2);
+  transform: scale(1.8);
   -webkit-animation: flash 2s;
 	animation: flash 2s;
 }
@@ -1594,6 +1592,7 @@ section {
 }
 
 @media screen and (max-width: 660px) {
+  
   .blogs {
     grid-template-columns: repeat(2, 1fr);
     height: auto;
