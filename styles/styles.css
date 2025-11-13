@@ -762,6 +762,31 @@ section {
   object-fit: fill;
 }
 
+#edit {
+  width: 100%;
+  object-fit: fill;
+}
+
+#film {
+  width: 100%;
+  object-fit: fill;
+}
+
+#photo {
+  width: 100%;
+  object-fit: fill;
+}
+
+#vector {
+  width: 100%;
+  object-fit: fill;
+}
+
+#vfx {
+  width: 100%;
+  object-fit: fill;
+}
+
 
 .blogs {
   display: grid;
