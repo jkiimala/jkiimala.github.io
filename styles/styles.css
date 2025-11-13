@@ -442,6 +442,7 @@ section {
 
 
 
+
 :root {
   --items-per-page: 4;
 }
@@ -732,6 +733,36 @@ section {
   text-align: center;
 }
 
+#ada {
+  width: 100%;
+  object-fit: fill;
+}
+
+#think {
+  width: 100%;
+  object-fit: fill;
+}
+
+#problem {
+  width: 100%;
+  object-fit: fill;
+}
+
+#time {
+  width: 100%;
+  object-fit: fill;
+}
+
+#crea {
+  width: 100%;
+  object-fit: fill;
+}
+
+#person {
+  width: 100%;
+  object-fit: fill;
+}
+
 
 .blogs {
   display: grid;
@@ -746,7 +777,7 @@ section {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   position: relative;
-  background-color: var(--color-grey-5);
+  object-fit: fill;
   border-width: 0.5rem;
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
   transition: all 0.4s ease-in-out;
