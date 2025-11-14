@@ -762,6 +762,8 @@ section {
   object-fit: fill;
 }
 
+/* MEDIA PROD */
+
 #edit {
   width: 100%;
   object-fit: fill;
@@ -786,6 +788,7 @@ section {
   width: 100%;
   object-fit: fill;
 }
+
 
 
 .blogs {
