@@ -219,12 +219,7 @@ section {
   /* filter: drop-shadow(0px 10px 60px var(--color-secondary)); */
 }
 
-/*#image:hover {
-  transform: scale(0.9);
-  transition: transform 1s ease-in;
-  transform: rotate(3240deg);
 
-}*/
 
 
 /* ETUSIVUN NIMI TYYLI */
@@ -302,7 +297,8 @@ section {
 
 .control:hover {
   scale: 0.85;
-  transition: ease-in-out;
+  transform: rotate(20deg);
+  transition: all 0.4s ease-in-out;
   background-color: var(--color-secondary);
   filter: drop-shadow(0px 10px 60px var(--color-secondary));
 }
@@ -383,6 +379,8 @@ section {
   background-color: #423a90;
   scale: 0.8;
   filter: drop-shadow(0px 10px 60px var(--color-secondary));
+  transform: rotate(20deg);
+  transition: all 0.4s ease-in-out;
 }
 
 /*Header-content*/
@@ -943,6 +941,8 @@ section {
 .contact-content-con .left-contact .contact-icon a:hover {
   background-color: var(--color-secondary);
   filter: drop-shadow(0px 10px 60px var(--color-secondary));
+  transform: rotate(20deg);
+  transition: all 0.4s ease-in-out;
 }
 
 .contact-content-con .left-contact .contact-icon a:hover i {
