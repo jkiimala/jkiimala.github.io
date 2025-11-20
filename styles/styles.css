@@ -11,8 +11,8 @@
 }
 
 :root {
-  --color-primary: #000000;
-  --color-secondary: #c9222f;
+  --color-primary: #00071b;
+  --color-secondary: #c7589f;
   --color-white: #FFFFFF;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -28,7 +28,7 @@
 }
 
 .light-mode {
-  --color-primary: #000000;
+  --color-primary: #00071b;
   --color-secondary: #423a90;
   --color-white: #ffffff;
   --color-black: #ffffff;
@@ -39,7 +39,7 @@
   --color-grey-4: #454e56;
   --color-grey-5: #1f201f;
   --color-grey-6: #ffffff;
-  --color-orange-7: #c9222f;
+  --color-orange-7: #c7589f;
 }
 
 
@@ -96,8 +96,8 @@ h2 {
     background: linear-gradient(
         90deg,
         transparent 0%,
-        #c9222f 30%, /* Kiiltokohta */
-        #423a90 50%, /* Kiiltävämpi kohta */
+        #c7589f 30%, /* Kiiltokohta */
+        #ffffff 50%, /* Kiiltävämpi kohta */
         rgb(0, 0, 0) 70%,
         transparent 100%
     );
@@ -211,12 +211,12 @@ section {
 
 #image {
   background: transparent;
-  width: 40vw;
-  height: 80vh;
+  width: 50vw;
+  height: 90vh;
   margin-left: 5rem;
   margin-bottom: 0rem;
   transition: transform 1s ease-out;
-  filter: drop-shadow(0px 10px 60px var(--color-secondary));
+  /* filter: drop-shadow(0px 10px 60px var(--color-secondary)); */
 }
 
 /*#image:hover {
@@ -808,13 +808,13 @@ section {
   position: relative;
   object-fit: fill;
   border-width: 0.5rem;
-  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1); */
   transition: all 0.4s ease-in-out;
 }
 
 .blogs .blog:hover {
-  background-color: #000000;
-  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
+  background-color: #00071b;
+  /* box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3); */
   transform: translateY(-5px);
   transition: all 0.4s ease-in-out;
 }
@@ -836,11 +836,11 @@ section {
 }
 
 .blog-text {
-  background-color: #000000;
+  background-color: #00071b;
 }
 
 .blogs .blog .blog-text {
-  background-color: #000000;
+  background-color: #00071b;
   margin-top: -7px;
   padding: 1.1rem;
   height: 8rem;
