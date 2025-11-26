@@ -734,59 +734,59 @@ section {
 
 #ada {
   width: 100%;
-  object-fit: fill;
+  object-fit: contain;
 }
 
 #think {
   width: 100%;
-  object-fit: fill;
+  object-fit:contain;
 }
 
 #problem {
   width: 100%;
-  object-fit: fill;
+  object-fit:contain;
 }
 
 #time {
   width: 100%;
-  object-fit: fill;
+  object-fit:contain;
 }
 
 #crea {
   width: 100%;
-  object-fit: fill;
+  object-fit:contain;
 }
 
 #person {
   width: 100%;
-  object-fit: fill;
+  object-fit:contain;
 }
 
 /* MEDIA PROD */
 
 #edit {
   width: 100%;
-  object-fit: fill;
+  object-fit:contain;
 }
 
 #film {
   width: 100%;
-  object-fit: fill;
+  object-fit:contain;
 }
 
 #photo {
   width: 100%;
-  object-fit: fill;
+  object-fit:contain;
 }
 
 #vector {
   width: 100%;
-  object-fit: fill;
+  object-fit:contain;
 }
 
 #vfx {
   width: 100%;
-  object-fit: fill;
+  object-fit:contain;
 }
 
 
