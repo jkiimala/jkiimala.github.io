@@ -14,7 +14,7 @@
   --color-primary: #00071b;
   --color-secondary: #c7589f;
   --color-white: #FFFFFF;
-  --color-black: #000;
+  --color-black: #00071b;
   --color-grey0: #f8f8f8;
   --color-grey-1: #dbe8dc;
   --color-grey-2: #c5c6ca;
@@ -76,7 +76,7 @@ h2 {
 .text-swipe {
     display: inline-block;
     /* Alkuperäinen, ei-animointu teksti näyttää valkoiselta/harmaalta */
-    color: #000000;
+    color: #00071b;
     position: relative; /* Tarvitaan pseudo-elementin sijoitteluun */
     overflow: hidden; /* Estää gradientin näkymästä elementin ulkopuolelle */
 }
@@ -109,12 +109,12 @@ h2 {
     color: transparent; /* Teksti läpinäkyväksi, jotta gradientti näkyy */
     
     /* Animaatio */
-    animation: swipe-shine 3.5s linear infinite; /* Kesto, ajoitusfunktio, toisto */
+    animation: swipe-shine 2.5s linear infinite; /* Kesto, ajoitusfunktio, toisto */
 }
 
 /* Voit muuttaa animaation kestoa yksittäisille elementeille luokilla */
 .text-swipe.short-animation::before {
-    animation-duration: 3.5s; /* Lyhyempi animaation kesto */
+    animation-duration: 2.5s; /* Lyhyempi animaation kesto */
 }
 
 /* Keyframes animaatiolle */
