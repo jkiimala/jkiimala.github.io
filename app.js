@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener("DOMContentLoaded", function() {
     const texts = [
       "Code with Intelligence",
-      "AI-Driven Designs",
+      "AI-Driven Full Stack",
       "Creative & Innovative Mindset",
       "Dynamic Agile Projects",
       "Next-Level Development",
