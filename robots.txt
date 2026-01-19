@@ -1,4 +1,3 @@
 User-agent: *
 Disallow:
-
 Sitemap: https://jkiimala.github.io/sitemap.xml
