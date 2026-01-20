@@ -732,74 +732,12 @@ section {
   text-align: center;
 }
 
-/* MODERN WORK PLACE SKILLS */
-
-#ada {
-  width: 100%;
-  object-fit: contain;
-}
-
-#think {
-  width: 100%;
-  object-fit:contain;
-}
-
-#problem {
-  width: 100%;
-  object-fit:contain;
-}
-
-#time {
-  width: 100%;
-  object-fit:contain;
-}
-
-#crea {
-  width: 100%;
-  object-fit:contain;
-}
-
-#person {
-  width: 100%;
-  object-fit:contain;
-}
-
-/* MEDIA PROD */
-
-#edit {
-  width: 100%;
-  object-fit:contain;
-}
-
-#film {
-  width: 100%;
-  object-fit:contain;
-}
-
-#photo {
-  width: 100%;
-  object-fit:contain;
-}
-
-#vector {
-  width: 100%;
-  object-fit:contain;
-}
-
-#vfx {
-  width: 100%;
-  object-fit:contain;
-}
-
-
-
 .blogs {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-gap: 1rem;
   margin-top: 2rem;
 }
-
 
 
 .blogs .blog {
