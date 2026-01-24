@@ -37,7 +37,7 @@ carouselContainer.innerHTML += carouselItems;
 
 // Animaation asetukset
 let scrollLeft = 0;
-const normalSpeed = 5; // Normaali vieritysnopeus
+const normalSpeed = 4; // Normaali vieritysnopeus
 const hoverSpeed = 20; // Vieritysnopeus hoverilla
 let scrollSpeed = normalSpeed;
 
