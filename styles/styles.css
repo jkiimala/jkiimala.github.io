@@ -872,6 +872,7 @@ section {
   background-color: var(--color-grey-5);
   cursor: pointer;
   justify-content: center;
+  border: solid 0.13rem;
   width: 30px;
   height: 30px;
   border-radius: 50%;
