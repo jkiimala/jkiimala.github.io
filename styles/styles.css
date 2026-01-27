@@ -684,7 +684,7 @@ section {
 }
 
 .portfolios .portfolio-item .hover-items h3 {
-  font-size: small;
+  font-size: x-small;
   color: var(--color-white);
   margin-bottom: 1.5rem;
 }
