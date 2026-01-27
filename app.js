@@ -122,7 +122,7 @@ document.addEventListener("DOMContentLoaded", function() {
       "AI-Driven Full Stack",
       "Creative & Innovative Mindset",
       "Dynamic Agile Projects",
-      "Next-Level Development",
+      "Next-Level Digital Media",
       "Complex 3D Models",
     ];
     
