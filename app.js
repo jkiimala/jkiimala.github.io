@@ -116,7 +116,9 @@ document.addEventListener('DOMContentLoaded', () => {
 // MAILIN LÄHETYS //
 
 function lahetaPostia(kayttaja, verkkotunnus) {
-    window.location.href = "mailto:" + kayttaja + "@" + verkkotunnus;
+    // Rakentaa osoitteen ja avaa sähköpostiohjelman
+    const osoite = kayttaja + "@" + verkkotunnus;
+    window.location.href = "mailto:" + osoite;
 }
 
 
