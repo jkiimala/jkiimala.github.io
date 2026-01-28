@@ -113,6 +113,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+// MAILIN LÄHETYS //
+
+function lahetaPostia(kayttaja, verkkotunnus) {
+    window.location.href = "mailto:" + kayttaja + "@" + verkkotunnus;
+}
+
 
 // etusivun teksti //
 
