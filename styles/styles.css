@@ -440,7 +440,6 @@ section {
 
 
 
-
 :root {
   --items-per-page: 4;
 }
@@ -812,7 +811,9 @@ section {
 
 .contact-content-con {
   display: flex;
-  padding-top: 3.5rem;
+  flex-direction: column; /* Pinotaan allekkain mobiilissa */
+  gap: 2rem;
+  padding-top: 2rem;
 }
 
 .contact-content-con .left-contact {
@@ -902,8 +903,9 @@ section {
 
 .contact-content-con .right-contact {
   flex: 3;
-  margin-left: 3rem;
+  margin-left: 0; 
 }
+
 
 .contact-content-con .right-contact .input-control {
   margin: 1.5rem 0;
@@ -925,16 +927,59 @@ section {
 
 .contact-content-con .right-contact .i-c-2 {
   display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
+
 .contact-content-con .right-contact .i-c-2 :last-child {
-  margin-left: 1.5rem;
+  margin-left: 0;
 }
 
 .contact-content-con .right-contact .submit-btn {
   display: flex;
   justify-content: flex-start;
 }
+
+/* 4. MEDIAKYSELY: Isommat näytöt (Tabletit ja Desktop) */
+@media screen and (min-width: 768px) {
+  .contact-content-con {
+    flex-direction: row; /* Takaisin rinnakkain */
+    padding-top: 3.5rem;
+  }
+
+  .contact-content-con .right-contact {
+    margin-left: 3rem; /* Palautetaan marginaali */
+  }
+
+  .contact-content-con .right-contact .i-c-2 {
+    flex-direction: row; /* Kentät rinnakkain */
+  }
+
+  .contact-content-con .right-contact .i-c-2 :last-child {
+    margin-left: 1.5rem;
+  }
+}
+
+/* Widescreen-optimointi (erittäin suuret näytöt) */
+@media screen and (min-width: 1400px) {
+  .contact-content-con {
+    max-width: 1200px; /* Estää sisällön leviämisen liian leveäksi */
+    margin: 0 auto;    /* Keskittää koko osion ruudulla */
+    gap: 0rem;         /* Lisää tyylikästä ilmaa palstojen väliin */
+  }
+
+  .contact-content-con .left-contact h4 {
+    font-size: 1.5rem; /* Suurempi otsikko isoille näytöille */
+  }
+
+  .contact-content-con .left-contact p {
+    font-size: 0.65rem; /* Parempi luettavuus etäältä */
+  }
+}
+
+
+
 
 /*Independed components*/
 .btn-con {
