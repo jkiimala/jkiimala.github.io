@@ -560,6 +560,7 @@ section {
   font-size: 1rem;
 }
 
+/*
 .timeline .timeline-item .tl-duration {
   padding: 0.2rem 0.6rem;
   background-color: var(--color-grey-5);
@@ -568,7 +569,7 @@ section {
   font-size: 0.8rem;
   text-transform: uppercase;
   font-weight: 500;
-}
+}*/
 
 .timeline .timeline-item h5 {
   padding: 0 0;
