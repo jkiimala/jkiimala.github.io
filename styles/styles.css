@@ -29,9 +29,9 @@
 
 .light-mode {
   --color-primary: #00071b;
-  --color-secondary: #7a424b;
+  --color-secondary: #ae00ff;
   --color-white: #ffffff;
-  --color-black: #ffffff;
+  --color-black: #00071b;
   --color-grey0: #f8f8f8;
   --color-grey-1: #dbe1e8;
   --color-grey-2: #b2becd;
@@ -376,7 +376,7 @@ section {
 }
 
 .theme-btn:hover {
-  background-color: #7a424b;
+  background-color: #ae00ff;
   scale: 0.8;
   filter: drop-shadow(0px 10px 60px var(--color-secondary));
   transform: rotate(20deg);
