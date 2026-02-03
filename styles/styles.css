@@ -43,7 +43,6 @@
 }
 
 
-
 body {
   background-color: var(--color-primary);
   font-family: "Roboto", sans-serif;
@@ -58,13 +57,11 @@ body {
 }
 
 
-
 h2 { 
   font-family: "Bebas Neue", serif;
   font-weight: 100;
   letter-spacing: 0.05cap;
 }
-
 
 /* TEKSTI ANIMAATIO */
 #animatedText {
@@ -131,8 +128,6 @@ h2 {
 
 /* SWIPE LOPPU */
 
-
-
 .text {
   font-size: 1.2em;
   font-weight: 400;
@@ -181,8 +176,6 @@ h2 {
 }
 
 
-
-
 a {
   display: inline-block;
   text-decoration: none;
@@ -208,19 +201,16 @@ section {
 }
 
 
-
 #image {
-  display: block; /* Poistaa ylimääräisen tilan kuvan alta */
-  max-width: 100%; /* Estää kuvaa kasvamasta liian suureksi */
-  height: auto; 
-  object-fit: cover;
+  display: block;
+  max-width: 100%;    /* Estää leveyden ylittymisen */
+  max-height: 100vh;   /* Estää korkeuden ylittymisen (viewport height) */
+  height: auto;        /* Säilyttää kuvasuhteen */
+  width: auto;         /* Varmistaa, ettei kuva veny, jos se on kapea */
+  object-fit: contain; /* 'contain' näyttää koko kuvan, 'cover' täyttää tilan rajaamalla */
+  margin: 0 auto;
   transition: transform 1s ease-out;
-  /* Käytä marginaaleja maltilla */
-  margin: 0 auto; /* Keskittää kuvan oletuksena */
-  /* filter: drop-shadow(0px 10px 60px var(--color-secondary)); */
 }
-
-
 
 
 /* ETUSIVUN NIMI TYYLI */
@@ -236,8 +226,7 @@ section {
   transform: translateY(-100%) scale(0);
   transition: all 0.9s ease-in-out;
   background-color: var(--color-primary);
-  width: 100%;
-  
+  width: 100%; 
 }
 
 
