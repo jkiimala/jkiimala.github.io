@@ -673,7 +673,7 @@ section {
   display: grid;
   /* Kasvatetaan minimileveyttä 300px:iin, jotta kortit eivät ole liian kapeita widescreenillä */
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 2rem; /* Hieman enemmän ilmaa väliin */
+  grid-gap: 1rem; /* Hieman enemmän ilmaa väliin */
   margin: 2rem auto 0 auto; /* Keskittää osion */
   max-width: 1400px; /* Rajoittaa leveyden ultra-wide näytöillä */
 }
@@ -766,7 +766,7 @@ section {
   display: grid;
   /* Kasvatetaan minimileveyttä 300px:iin, jotta kortit eivät ole liian kapeita widescreenillä */
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 2rem; /* Hieman enemmän ilmaa väliin */
+  grid-gap: 1rem; /* Hieman enemmän ilmaa väliin */
   margin: 2rem auto 0 auto; /* Keskittää osion */
   max-width: 1400px; /* Rajoittaa leveyden ultra-wide näytöillä */
 }
