@@ -1638,15 +1638,7 @@ section {
     object-fit: cover;
   }
 
-/*
-  .imagePhone {
-    display: none;
-  }
 
-  .flip-card {
-    display: none;
-  }
-*/
   .about-container {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -1749,15 +1741,6 @@ section {
   }
 
   
-/*
-  .imagePhone {
-    display: none;
-  }
-
-  .flip-card {
-    display: none;
-  }
-*/
   .main-title h2 {
     font-size: 4rem;
   }
