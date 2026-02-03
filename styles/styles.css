@@ -527,9 +527,11 @@ section {
 /*Timeline*/
 .timeline {
   display: grid;
-  /* Käytä auto-fit ja minmax dynaamiseen asetteluun */
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
-  grid-gap: 2rem; 
+  /* Kasvatetaan minimileveyttä 300px:iin, jotta kortit eivät ole liian kapeita widescreenillä */
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 2rem; /* Hieman enemmän ilmaa väliin */
+  margin: 2rem auto 0 auto; /* Keskittää osion */
+  max-width: 1400px; /* Rajoittaa leveyden ultra-wide näytöillä */
 }
 
 .timeline, h5 {
