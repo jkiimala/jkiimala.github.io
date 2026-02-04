@@ -131,7 +131,7 @@ document.addEventListener("DOMContentLoaded", function() {
       "Creative & Innovative Mindset",
       "Dynamic Agile Projects",
       "Next-Level Digital Media",
-      "Complex 3D Models",
+      "Videos & Animations"
     ];
     
     let currentIndex = 0;
