@@ -902,7 +902,7 @@ section {
   display: flex;
   align-items: center;
   color: var(--color-white);
-  background-color: var(--color-grey-5);
+  background-color: var(--color-grey-4);
   cursor: pointer;
   justify-content: center;
   border: solid 0.13rem;
