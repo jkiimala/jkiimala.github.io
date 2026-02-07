@@ -11,10 +11,10 @@
 }
 
 :root {
-  --color-primary: #00071b;
-  --color-secondary: #20a673;
+  --color-primary: #45187f;
+  --color-secondary: #f38a8c;
   --color-white: #FFFFFF;
-  --color-black: #00071b;
+  --color-black: #45187f;
   --color-grey0: #f8f8f8;
   --color-grey-1: #dbe8dc;
   --color-grey-2: #c5c6ca;
@@ -28,10 +28,10 @@
 }
 
 .light-mode {
-  --color-primary: #00071b;
+  --color-primary: #45187f;
   --color-secondary: #229bba;
   --color-white: #ffffff;
-  --color-black: #00071b;
+  --color-black: #45187f;
   --color-grey0: #f8f8f8;
   --color-grey-1: #dbe1e8;
   --color-grey-2: #b2becd;
@@ -39,7 +39,7 @@
   --color-grey-4: #454e56;
   --color-grey-5: #1f201f;
   --color-grey-6: #ffffff;
-  --color-orange-7: #20a673;
+  --color-orange-7: #f38a8c;
 }
 
 
@@ -73,7 +73,7 @@ h2 {
 .text-swipe {
     display: inline-block;
     /* Alkuperäinen, ei-animointu teksti näyttää valkoiselta/harmaalta */
-    color: #00071b;
+    color: #45187f;
     position: relative; /* Tarvitaan pseudo-elementin sijoitteluun */
     overflow: hidden; /* Estää gradientin näkymästä elementin ulkopuolelle */
 }
@@ -93,9 +93,9 @@ h2 {
     background: linear-gradient(
         90deg,
         transparent 0%,
-        #20a673 30%, /* Kiiltokohta */
+        #f38a8c 30%, /* Kiiltokohta */
         #ffffff 50%, /* Kiiltävämpi kohta */
-        rgb(0, 0, 0) 70%,
+        #45187f 70%,
         transparent 100%
     );
     background-size: 200% 100%; /* Gradientti on kaksi kertaa leveämpi kuin elementti */
@@ -782,7 +782,7 @@ section {
 }
 
 .blogs .blog:hover {
-  background-color: #00071b;
+  background-color: #45187f;
   transform: translateY(-5px);
   transition: all 0.4s ease-in-out;
 }
@@ -807,11 +807,11 @@ section {
 }
 
 .blog-text {
-  background-color: #00071b;
+  background-color: #45187f;
 }
 
 .blogs .blog .blog-text {
-  background-color: #00071b;
+  background-color: #45187f;
   margin-top: -7px;
   padding: 1.1rem;
   height: 8rem;
