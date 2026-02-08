@@ -11,10 +11,10 @@
 }
 
 :root {
-  --color-primary: #45187f;
-  --color-secondary: #f38a8c;
+  --color-primary: #000000;
+  --color-secondary: #df7f5c;
   --color-white: #FFFFFF;
-  --color-black: #45187f;
+  --color-black: #000000;
   --color-grey0: #f8f8f8;
   --color-grey-1: #dbe8dc;
   --color-grey-2: #c5c6ca;
@@ -28,10 +28,10 @@
 }
 
 .light-mode {
-  --color-primary: #45187f;
-  --color-secondary: #229bba;
+  --color-primary: #000000;
+  --color-secondary: #ff1e00;
   --color-white: #ffffff;
-  --color-black: #45187f;
+  --color-black: #000000;
   --color-grey0: #f8f8f8;
   --color-grey-1: #dbe1e8;
   --color-grey-2: #b2becd;
@@ -39,7 +39,7 @@
   --color-grey-4: #454e56;
   --color-grey-5: #1f201f;
   --color-grey-6: #ffffff;
-  --color-orange-7: #f38a8c;
+  --color-orange-7: #df7f5c;
 }
 
 
@@ -73,7 +73,7 @@ h2 {
 .text-swipe {
     display: inline-block;
     /* Alkuperäinen, ei-animointu teksti näyttää valkoiselta/harmaalta */
-    color: #45187f;
+    color: #000000;
     position: relative; /* Tarvitaan pseudo-elementin sijoitteluun */
     overflow: hidden; /* Estää gradientin näkymästä elementin ulkopuolelle */
 }
@@ -93,9 +93,9 @@ h2 {
     background: linear-gradient(
         90deg,
         transparent 0%,
-        #f38a8c 30%, /* Kiiltokohta */
+        #000000 30%, /* Kiiltokohta */
         #ffffff 50%, /* Kiiltävämpi kohta */
-        #45187f 70%,
+        #df7f5c 70%,
         transparent 100%
     );
     background-size: 200% 100%; /* Gradientti on kaksi kertaa leveämpi kuin elementti */
@@ -365,7 +365,7 @@ section {
 }
 
 .theme-btn:hover {
-  background-color: #229bba;
+  background-color: #ff1e00;
   scale: 0.8;
   filter: drop-shadow(0px 10px 60px var(--color-secondary));
   transform: rotate(20deg);
@@ -782,7 +782,7 @@ section {
 }
 
 .blogs .blog:hover {
-  background-color: #45187f;
+  background-color: #000000;
   transform: translateY(-5px);
   transition: all 0.4s ease-in-out;
 }
@@ -807,11 +807,11 @@ section {
 }
 
 .blog-text {
-  background-color: #45187f;
+  background-color: #000000;
 }
 
 .blogs .blog .blog-text {
-  background-color: #45187f;
+  background-color: #000000;
   margin-top: -7px;
   padding: 1.1rem;
   height: 8rem;
