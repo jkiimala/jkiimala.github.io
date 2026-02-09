@@ -12,7 +12,7 @@
 
 :root {
   --color-primary: #000000;
-  --color-secondary: #df7f5c;
+  --color-secondary: #FF4F00;
   --color-white: #FFFFFF;
   --color-black: #000000;
   --color-grey0: #f8f8f8;
@@ -29,7 +29,7 @@
 
 .light-mode {
   --color-primary: #000000;
-  --color-secondary: #ff1e00;
+  --color-secondary: #ff9B00;
   --color-white: #ffffff;
   --color-black: #000000;
   --color-grey0: #f8f8f8;
@@ -39,9 +39,8 @@
   --color-grey-4: #454e56;
   --color-grey-5: #1f201f;
   --color-grey-6: #ffffff;
-  --color-orange-7: #df7f5c;
+  --color-orange-7: #FF4F00;
 }
-
 
 body {
   background-color: var(--color-primary);
@@ -95,7 +94,7 @@ h2 {
         transparent 0%,
         #000000 30%, /* Kiiltokohta */
         #ffffff 50%, /* Kiiltävämpi kohta */
-        #df7f5c 70%,
+        #FF4F00 70%,
         transparent 100%
     );
     background-size: 200% 100%; /* Gradientti on kaksi kertaa leveämpi kuin elementti */
@@ -365,7 +364,7 @@ section {
 }
 
 .theme-btn:hover {
-  background-color: #ff1e00;
+  background-color: #ff9B00;
   scale: 0.8;
   filter: drop-shadow(0px 10px 60px var(--color-secondary));
   transform: rotate(20deg);
@@ -791,7 +790,7 @@ section {
   background: linear-gradient(0deg,  
     transparent 20%, 
     var(--color-secondary));
-  transform: rotate(15deg);
+  transform: translateY(-0.5em);
   transition: all 0.5s ease;
 }
 
@@ -1593,12 +1592,9 @@ section {
     height: 25rem;
   }
 
-
   .right-header .name {
     text-align: center; 
   }
-
-  
 
   .portfolios {
     grid-template-columns: repeat(3, 1fr);
